@@ -1,5 +1,4 @@
 "use client"
-import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./BannerArea.module.css";
 import { Container, Col, Row } from "react-bootstrap";
 import Image from "next/image";

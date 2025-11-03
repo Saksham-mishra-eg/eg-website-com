@@ -1,19 +1,20 @@
 "use client"
-import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./HelpCenterTabsArea.module.css";
 import { Container, Col, Row, Nav, Tab, Button, Modal } from "react-bootstrap";
 import React, { useState } from 'react';
 import ZohoForm from "../../constants/ZohoForm";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 function HelpCenterTabsArea() {
+        const router = useRouter();
 
     const handleChangeLogin = () => {
-        window.open("https://dashboard2.exportgenius.in/help-support.aspx", "_blank");
+         router.push("https://dashboard2.exportgenius.in/help-support.aspx", "_blank");
     }
 
     const handleChangeTicket = () => {
-        window.open("https://dashboard2.exportgenius.in/AddTicket.aspx", "_blank");
+         router.push("https://dashboard2.exportgenius.in/AddTicket.aspx", "_blank");
     }
 
     const [show, setShow] = useState(false);
