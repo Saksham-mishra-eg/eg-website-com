@@ -3,14 +3,15 @@ import React, { useEffect } from "react";
 
 const ZohoForm = ({ containerId, formUrl }) => {
   useEffect(() => {
-    const container = window.getElementById(containerId);
+     if (typeof document !== "undefined") {
+    const container = document.getElementById(containerId);
     if (!container) return;
 
     // clear old content if re-render
     container.innerHTML = "";
 
     // create iframe
-    const f = window.createElement("iframe");
+    const f = document.createElement("iframe");
     let ifrmSrc = formUrl.includes("?") ? formUrl + "&zf_rszfm=1" : formUrl + "?zf_rszfm=1";
 
     try {
@@ -91,6 +92,7 @@ const ZohoForm = ({ containerId, formUrl }) => {
       window.removeEventListener("message", handleMessage, false);
       if (container) container.innerHTML = "";
     };
+  }
   }, [containerId, formUrl]);
 
   // just return the target container
