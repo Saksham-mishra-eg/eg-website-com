@@ -1,0 +1,103 @@
+.SecurityComplianceAres {
+    background-color: #ffffff;
+    padding: 80px 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.complancePrgrm {
+    background-color: #F9F9F9;
+    height: auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.complancePrgrm h2 {
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 35px;
+}
+
+.secProgmrList {
+    margin-bottom: 25px;
+}
+
+.secProgmrList p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #848484;
+}
+
+.numberListItems {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.numberListItems span {
+    background-color: #219def;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numberListItems h3 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.ComplCertification {
+    background-color: #ffffff;
+    padding: 0px 25px 25px 25px;
+}
+
+.ComplCertification h3 {
+    font-size: 32px;
+    line-height: 51px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.ComplCertification h3 span {
+    color: #219def;
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .complancePrgrm h2 {
+        line-height: 42px;
+        font-size: 30px;
+    }
+
+    .SecurityComplianceAres {
+        padding-bottom: 20px;
+    }
+
+    .ComplCertification h3 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .ComplCertification h3 span {
+        margin-bottom: 15px;
+    }
+
+    .numberListItems h3 {
+        line-height: 30px;
+    }
+}

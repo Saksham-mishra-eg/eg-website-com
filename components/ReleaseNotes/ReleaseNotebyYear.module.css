@@ -1,0 +1,105 @@
+.ReleaseNotebyyearsection {
+    background: #ffffff;
+    width: 100%;
+    display: block;
+    padding: 60px 0;
+}
+
+.miRlesNote {
+    width: 100%;
+    display: block;
+    margin-bottom: 35px;
+}
+
+.miRlesNote h2 {
+    font-size: 36px;
+    line-height: 64px;
+    color: #FFFFFF;
+    font-weight: 700;
+    background-color: #3884C7;
+    border-radius: 10px;
+    padding: 10px 15px;
+    display: inline;
+    margin-bottom: 35px;
+}
+
+.relaasbyDateContx {
+    background: #f3f8ff;
+    padding: 30px 50px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.relaasbyDateContx h3 {
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.relaasbyDateContx p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #848484;
+    margin-bottom: 25px;
+    width: 100%;
+    display: block;
+}
+
+.yearofDate {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.yearofDate  button{
+    width: 100%;
+    text-align: left;
+}
+
+.yearofDate h2 {
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.StartRecentNotes {
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 55px;
+}
+
+.getitnStart {
+    display: block;
+    margin-bottom: 25px;
+}
+
+.getitnStart h2 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.notUlist {
+    margin-left: 0px;
+}
+
+.notUlist li {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #000000;
+    list-style-type: disc;
+}
+
+.StartRecentNotes p {
+    color: #747474;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 300;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,31 @@
+.newReleasection {
+    background: #ffffff;
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
+}
+
+.newheadRelase {
+    width: 100%;
+    padding: 45px;
+}
+
+.newheadRelase h1 {
+    font-size: 55px;
+    line-height: 66px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.newheadRelase p {
+    font-size: 16px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.alignzCnter {
+    align-items: center;
+}

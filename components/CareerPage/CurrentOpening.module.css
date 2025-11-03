@@ -1,0 +1,232 @@
+.CurrentOpeningBg {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #F7F7F7;
+}
+
+.CurOpenhading {
+    font-family: "Roboto", sans-serif;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.CurOpenhading h2 {
+    font-size: 40px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.CurOpenhading h4 {
+    color: #3884C7;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.CurOpenhading p {
+    color: #171a31bf;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fonrSelectEg {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.fonrSelectEgOption {
+    border-radius: 2px;
+    border-color: #CACACA;
+    font-size: 16px;
+    color: #171a31ba;
+    font-family: "Roboto", sans-serif;
+    padding: .475rem 2.25rem .475rem .75rem;
+}
+
+.AcrdinBtn {
+    border: 0;
+    background: transparent;
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.carbodyAcrnd {
+    font-family: "Roboto", sans-serif;
+}
+
+.carbodyAcrnd p {
+    font-size: 14px;
+    color: #6E6E6E;
+    line-height: 26px;
+}
+
+.carbodyAcrnd p span {
+    color: #171a31d1;
+    font-size: 16px;
+}
+
+.acordionFormCrer {
+    margin: 30px 0;
+    width: 90%;
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.carbodyAcrnd p a {
+    color: #3884C7;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.carbodyAcrnd p a img {
+    margin-left: 10px;
+}
+
+.acrndCardcrr {
+    margin-bottom: 25px;
+    border-color: #A19D9D;
+    border-radius: 6px;
+    background: #fff;
+}
+
+.careheaderAcrnd {
+    background: #fff;
+    border-bottom: 0;
+    margin-bottom: 3px;
+}
+
+.FomrDentnormCrer {
+    margin: 30px 0;
+    width: 80%;
+    padding: 40px 40px 5px;
+    background: #fff;
+    border: 1px solid #BEBEBE;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+}
+
+.aplythished {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.aplythished h3 {
+    font-size: 24px;
+    color: #2A2A2A;
+    font-weight: 500;
+}
+
+.aformareasent {
+    padding: 20px 0;
+}
+
+.aformareasent h4 {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.formLaelCar {
+    font-size: 16px;
+    color: #171a31bb;
+    font-family: "Roboto", sans-serif;
+}
+
+.formContrCaresd {
+    border-radius: 2px;
+    color: #A19D9D;
+    outline: none;
+    box-shadow: none;
+    border-color: #A19D9D;
+}
+
+.formContrCaresd:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #A19D9D;
+}
+
+.formLaelCarresm {
+    font-size: 16px;
+    color: #292929;
+    font-family: "Roboto", sans-serif;
+}
+
+.atacthresumeUpld {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: 148px;
+    height: 100%;
+}
+
+.inputFielAtacth {
+    background: #fff;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    color: #3884C7;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0;
+    /*20px/16px 0*/
+    overflow: hidden;
+    padding: 0;
+    /*14px/16px*/
+    position: relative;
+    text-align: center;
+    width: 150px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.inputFielAtacth span {
+    cursor: pointer;
+}
+
+.subtmBtinFrom {
+    background-color: #3884C7;
+    color: #fff;
+    border-radius: 2px;
+    padding: 9px 35px;
+    font-family: "Roboto", sans-serif;
+    width: 170px;
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .fonrSelectEg {
+        width: 100%;
+    }
+
+    .fonrSelectEgOption {
+        margin-bottom: 25px;
+    }
+
+    .acordionFormCrer {
+        width: 100%;
+        margin: 0;
+    }
+
+    .FomrDentnormCrer {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .aplythished {
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+}

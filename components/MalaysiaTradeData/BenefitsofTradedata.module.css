@@ -1,0 +1,125 @@
+.BenefitsTradedata {
+    background: url(/public/clients/benefits-tradedata.png) lightgray -0.278px -18px / 100.03% 129.146% no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 80px 0;
+    background-size: 100%;
+    background-position: center bottom;
+}
+
+.ExpnBenefitsT {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 45px;
+}
+
+.ExpnBenefitsT h2 {
+    color: var(--Neutral-1000, #1C1F25);
+    text-align: center;
+    font-family: Poppins, SANS-SERIF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 116%;
+}
+
+.ElemntContainer,
+.ElemntContainer2nd,
+.ElemntContainer3rd {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+    margin: auto;
+}
+
+.ElemntContainer {
+    grid-template-columns: 2fr 1fr 2fr;
+}
+
+.ElemntContainer2nd {
+    grid-template-columns: 2fr 2fr;
+}
+
+.ElemntContainer3rd {
+    grid-template-columns: 2fr;
+}
+
+.benifitsContainerExp {
+    display: flex;
+    align-items: flex-start;
+    gap: 75px;
+    align-self: stretch;
+    margin: 25px 0;
+}
+
+.bacgkBroderEle {
+    border-radius: 10px;
+    background: #FFF;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    text-align: start;
+}
+
+.BenefemelentItemsCont {
+    padding: 10px;
+    text-align: start;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: center;
+    justify-content: flex-start;
+    height: fit-content;
+}
+
+.BenefemelentItemsCont h4 {
+    color: #000;
+    text-align: center;
+    font-family: Poppins, SANS-SERIF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 116%;
+}
+
+@media screen and (max-width: 768px) {
+    .BenefitsTradedata {
+        padding: 40px 0;
+        background-size: cover;
+        background-position: top center;
+    }
+
+    .ExpnBenefitsT {
+        width: 100%;
+        padding: 0;
+    }
+
+    .ExpnBenefitsT h2 {
+        font-size: 32px;
+    }
+
+    .ElemntContainer {
+        grid-template-columns: 1fr
+    }
+
+    .BenefemelentItemsCont img {
+        height: 100px;
+    }
+
+    .BenefemelentItemsCont h4 {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .ElemntContainer2nd {
+        grid-template-columns: 1fr
+    }
+
+    .ElemntContainer,
+    .ElemntContainer2nd,
+    .ElemntContainer3rd {
+        margin: 0;
+    }
+}

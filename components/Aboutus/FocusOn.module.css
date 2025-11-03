@@ -1,0 +1,60 @@
+.FocusOnBg {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: auto;
+    background-color: #F9F9F9;
+    padding: 60px 0;
+}
+
+.FocuOnd {
+    font-family: "Roboto", sans-serif;
+    width: 68%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.FocuOnd h6 {
+    font-size: 24px;
+    color: #909090;
+    margin-bottom: 15px;
+}
+
+.FocuOnd h2 {
+    font-size: 55px;
+    color: #171A31;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.FocuOnd p {
+    font-size: 16px;
+    color: #848484;
+    font-weight: 400;
+    line-height: 179%;
+}
+
+.slick-prev,
+.slick-next {
+    background-color: #000 !important;
+}
+
+@media screen and (max-width: 768px) {
+
+    .FocuOnd {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .foncImg img {
+        text-align: center;
+        width: 100%;
+    }
+
+    .FocuOnd h2 {
+        font-size: 45px;
+    }
+    .foncImg{
+        width: 100%;
+        margin-top: 22px;
+    }
+}

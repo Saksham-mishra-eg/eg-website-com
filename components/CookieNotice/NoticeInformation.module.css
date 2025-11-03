@@ -1,0 +1,38 @@
+.NoticeCookie {
+    width: 100%;
+    display: block;
+    height: auto;
+    padding: 70px 0 0 0;
+    background-color: white;
+}
+
+.uliofCookies {
+    padding-left: 2rem !important;
+}
+
+.CoociesTextnote p {
+    width: 100%;
+    display: block;
+    color: #525252;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.Cokinotichead {
+    margin-bottom: 20px;
+}
+
+.uliofCookies li {
+    margin-bottom: 15px;
+    list-style-type: disc;
+    color: #525252;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.NoticeCookie a {
+    color: #1675e0;
+    font-weight: 500;
+    text-decoration: none;
+}

@@ -1,0 +1,178 @@
+.CountriCoverdPorm {
+    width: 100%;
+    height: 100%;
+    background-color: #f4f7ff;
+    padding: 80px 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.Explormorebtn {
+    color: #fff;
+    background: #666;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 14px 20px 14px;
+    border-radius: 0;
+    border: none;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Explormorebtn:focus,
+.Explormorebtn:hover {
+    color: #154bbf;
+    background: transparent;
+    box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+        7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+}
+
+.Explormorebtn:before,
+.Explormorebtn:after {
+    content: '';
+    background: #154bbf;
+    height: 2px;
+    width: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: 0.4s ease all;
+}
+
+.Explormorebtn:after {
+    top: auto;
+    right: auto;
+    left: 0;
+    bottom: 0;
+}
+
+.Explormorebtn:hover:before,
+.Explormorebtn:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+.tradeText {
+    text-align: left;
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+.howYOur {
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    line-height: 44px;
+}
+
+.tradeText p {
+    color: #171a31b0;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    line-height: 33px;
+    margin-bottom: 25px;
+}
+
+.countrContinetn {
+    list-style: disc;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    /* margin-bottom: 30px; */
+    width: 100%;
+}
+
+.countrContinetn li {
+    width: 100%;
+    color: #3f3f3f;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.7px;
+    margin-bottom: 18px;
+    /* background: url(../images/raw/list_2.png) no-repeat;
+    background-position: 0 4px;
+    padding: 0 0 25px 25px; */
+}
+
+.modalHeader {
+    background-image: linear-gradient(to right, #1d60dc, #2c6ee8);
+    color: #fff;
+    padding: 14px 20px;
+}
+
+.subtmBtinFrom {
+    color: #fff;
+    background-color: #333;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding: 8px 22px 9px;
+    border: none;
+    border-radius: 0;
+    position: relative;
+    z-index: 1;
+    transition: all 0.4s ease 0s;
+}
+
+.subtmBtinFrom:focus {
+    color: #fff;
+}
+
+.subtmBtinFrom:hover {
+    color: #fff;
+    background: #333;
+    box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.5);
+}
+
+.subtmBtinFrom:before,
+.subtmBtinFrom:after {
+    content: '';
+    background-color: #154bbf;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: scaleX(0);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: all 0.3s ease-in 0s;
+}
+
+.subtmBtinFrom:after {
+    background-color: #154bbf;
+    border-radius: 0;
+    transform: scaleX(1);
+}
+
+.subtmBtinFrom:hover:before {
+    border-radius: 0;
+    opacity: 1;
+    transform: scaleX(1);
+}
+
+.subtmBtinFrom:hover:after {
+    border-radius: 50%;
+    opacity: 1;
+    transform: scaleX(0);
+}
+
+
+@media only screen and (max-width: 767px) {
+    .Explormorebtn {
+        margin-bottom: 30px;
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+}

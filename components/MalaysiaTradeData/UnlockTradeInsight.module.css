@@ -1,0 +1,107 @@
+.UnlockTradeInsightPage {
+    background-image: url(/public//clients/trade-data.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 15px 0;
+    flex-shrink: 0;
+    aspect-ratio: 153/48;
+    font-family: Poppins, sans-serif;
+}
+
+.unlockTrdInsh {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.GloblTreadeHead {
+    display: flex;
+    height: 308px;
+    max-width: 860px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.GloblTreadeHead h1 {
+    color: var(--Neutral-1000, #1C1F25);
+    text-align: center;
+    font-family: Poppins, SANS-SERIF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 116%;
+    /* 55.68px */
+}
+
+.GloblTreadeHead p {
+    color: var(--Neutral-N800, #4B5162);
+    text-align: center;
+    font-family: Poppins, SANS-SERIF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    opacity: 0.8;
+    /* 25.6px */
+}
+
+.butnFreeContct {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--stack-md, 12px);
+}
+
+.TradescheDemoBtn {
+    display: flex;
+    padding: var(--inset-md, 12px) var(--inset-xl, 20px);
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--lg, 12px);
+    background: var(--Primary-PR600, #387FF5);
+    color: var(--DarkOverlayElement-100, #FFF);
+    font-family: Poppins, SANS-SERIF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 122%;
+    /* 19.52px */
+}
+
+.TradeLogonDemoBtn {
+    display: flex;
+    padding: var(--inset-md, 12px) var(--inset-xl, 20px);
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--lg, 12px);
+    border: 1px solid var(--Neutral-N400, #B6BCCD);
+    background: var(--NeutralAlpha-NA10, rgba(255, 255, 255, 0.10));
+    backdrop-filter: blur(calc(var(--Blue-2, 12px) / 2));
+    color: var(--Neutral-N800, #4B5162);
+    font-family: Poppins, SANS-SERIF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 122%;
+    /* 19.52px */
+}
+
+@media screen and (max-width: 768px) {
+    .GloblTreadeHead {
+        height: auto;
+        max-width: 100%;
+        gap: 20px;
+        padding-top: 0;
+    }
+
+    .GloblTreadeHead h1 {
+        font-size: 36px;
+    }
+}

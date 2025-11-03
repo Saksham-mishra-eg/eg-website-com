@@ -1,0 +1,32 @@
+.WhatGlobaldata {
+    width: 100%;
+    height: 100%;
+    background-color: #f4f7ff;
+    padding: 60px 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.Glbatrade {
+    padding: 40px;
+}
+
+.Glbatrade h2 {
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.Glbatrade p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #848484;
+    line-height: 35px;
+    width: 100%;
+}
+@media screen and (max-width: 768px){
+    .Glbatrade{
+        padding: 0;
+        margin-top: 30px;
+    }
+}

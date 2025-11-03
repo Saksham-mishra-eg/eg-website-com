@@ -1,0 +1,64 @@
+.WhyWorkOBg {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    padding: 150px 0;
+    background-image: url(/arrowVector.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 350px 300px;
+    background-color: #fff;
+}
+
+.WhycorkEG {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.EgWorksnt {
+    display: flex;
+    align-items: center;
+    flex-basis: fit-content;
+}
+
+.EgWorksnt h2 {
+    font-size: 55px;
+    color: #171A31;
+    font-weight: 700;
+    line-height: 68px;
+}
+
+.EgWorksnt p {
+    color: #848484;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.VlLines {
+    background: #000;
+    width: 1px;
+    opacity: 1;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .WhyWorkOBg {
+        padding: 60px 0;
+        background-position: bottom center;
+        background: #fff;
+    }
+
+    .WhycorkEG {
+        display: inline-block;
+    }
+
+    .EgWorksnt {
+        padding-bottom: 20px;
+    }
+
+    .VlLines {
+        width: 100%;
+        border: 1px solid;
+    }
+}

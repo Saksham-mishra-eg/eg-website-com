@@ -1,0 +1,83 @@
+@media screen and (max-width: 700px) {
+  .leftCardd {
+    display: none;
+  }
+
+  .rightCardd {
+    display: none;
+  }
+}
+
+.carousel-container {
+  display: flex;
+  flex-flow: column;
+}
+
+.avatars {
+  border-radius: 2%;
+  margin-top: -6em;
+  width: 100%;
+}
+
+.carddss {
+  display: flex;
+  width: 100%;
+}
+
+.cardd {
+  margin: 7em 2em 0em;
+  background-color: transparent;
+  padding: 2em;
+  width: 35%;
+  height: 200px;
+  border: 0;
+  flex: 1;
+  /* each card is of equal size */
+}
+
+.leftCardd {
+  margin-right: -15em;
+  margin-top: 7em;
+}
+
+.rightCardd {
+  margin-left: -15em;
+  margin-top: 7em;
+}
+
+.active {
+  z-index: 1;
+}
+
+.arrow-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -10em;
+  position: relative;
+}
+
+.arrow {
+  height: 3em;
+}
+
+.arrow:active {
+  fill: lightgray;
+}
+
+.tracker {
+  display: flex;
+  justify-content: center;
+  height: 2.5em;
+  margin-top: 1em;
+}
+
+@media screen and (max-width: 768px) {
+  .arrow-container {
+    margin-top: -7em;
+  }
+
+  .cardd {
+    height: 170px;
+    padding: 1em;
+  }
+}

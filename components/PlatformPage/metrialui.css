@@ -1,0 +1,58 @@
+@media screen and (max-width: 768px) {
+    .css-heg063-MuiTabs-flexContainer {
+        display: inline-block !important;
+    }
+
+    .css-jpln7h-MuiTabs-scroller {
+        white-space: normal !important;
+    }
+
+    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+        color: #1976d2 !important;
+        border-bottom: 2px solid;
+        line-height: 22px;
+        padding-bottom: 9px;
+    }
+
+    .css-1aquho2-MuiTabs-indicator {
+        display: none;
+    }
+
+    .css-1ujnqem-MuiTabs-root {
+        width: 100%;
+        display: inline-block !important;
+    }
+
+    .css-orq8zk {
+        width: 100%;
+        display: inline-block !important;
+    }
+
+    .MuiTabs-root {
+        width: 100%;
+        display: inline-block !important;
+    }
+
+    .MuiTabs-scroller.MuiTabs-fixed.css-jpln7h-MuiTabs-scroller {
+        white-space: normal !important;
+    }
+
+    .css-1anid1y {
+        white-space: normal !important;
+    }
+
+    .MuiTabs-scroller.MuiTabs-fixed {
+        white-space: normal !important;
+    }
+
+    .MuiTabs-flexContainer {
+        display: inline-block !important;
+    }
+
+    .MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary {
+        display: inline-block !important;
+        min-height: auto !important;
+        font-size: 14px !important;
+        padding: 12px 9px !important;
+    }
+}

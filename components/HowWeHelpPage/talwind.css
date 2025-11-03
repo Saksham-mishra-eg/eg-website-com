@@ -1,0 +1,42 @@
+.withFixeHei {
+    height: 20rem;
+    justify-content: center;
+    overflow-y: auto;
+    display: flex;
+    position: relative;
+}
+
+.tielTextls {
+    font-size: 40px;
+    color: #000;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+
+.teseDescTlare {
+    color: #848484;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.ulilistSolutin {
+    padding-left: 0;
+    margin-top: 30px;
+}
+
+.overScroExampl::-webkit-scrollbar {
+    display: none;
+}
+
+.ulilistSolutin li {
+    background-image: url(/lisright.png);
+    background-repeat: no-repeat;
+    list-style: none;
+    padding-left: 54px;
+    background-position: 0px 3px;
+    color: #848484;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 28px;
+}

@@ -1,0 +1,73 @@
+.AboutFeaturesBg {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 60px 0;
+    margin-bottom: 60px;
+}
+
+.feactuRabit {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.feactuRabit h2 {
+    font-size: 40px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.feactuRabit p {
+    color: #848484;
+    font-size: 16px;
+}
+
+.tradeFeactu {
+    width: 100%;
+    border-radius: 4px;
+    padding: 30px;
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 13px 16px -8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.feactrde {
+    text-align: center;
+}
+
+.feactrde img {
+    margin-bottom: 15px;
+    display: inline;
+}
+
+.feactrde h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.feactrde p {
+    font-size: 16px;
+    color: #848484;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .tradeFeactu {
+        margin-bottom: 30px;
+        height: auto;
+    }
+
+    .AboutFeaturesBg {
+        margin-bottom: 0px;
+    }
+
+}

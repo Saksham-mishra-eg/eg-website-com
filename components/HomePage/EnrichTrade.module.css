@@ -1,0 +1,78 @@
+.EnrichSection {
+    width: 100%;
+    background-color: #fff;
+    height: auto;
+    font-family: "Roboto", sans-serif;
+    padding: 80px 0;
+}
+
+.TextEnrichtrd {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    padding: 20px 0 40px;
+}
+
+.TextEnrichtrd h2 {
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+
+.TextEnrichtrd p {
+    font-size: 16px;
+    color: #848484;
+    font-weight: 400;
+}
+
+.EnrchDtaBox {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: left;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 4px;
+}
+
+.BoxesOFDta {
+    padding: 30px;
+    font-family: "Roboto", sans-serif;
+    flex-basis: auto;
+    flex-flow: row wrap;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    display: flex;
+    gap: 1rem;
+}
+
+.BoxesOFDta img {
+    width: 54px;
+    height: 54px;
+    margin-bottom: 20px;
+}
+
+.BoxesOFDta h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.BoxesOFDta p {
+    font-size: 16px;
+    color: #848484;
+}
+
+.BoxesOFDta a {
+    font-size: 18px;
+    color: #66B167;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .EnrchDtaBox {
+        margin-bottom: 30px;
+    }
+
+}

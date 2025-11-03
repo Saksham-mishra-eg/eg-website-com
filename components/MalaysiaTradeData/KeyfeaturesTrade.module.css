@@ -1,0 +1,143 @@
+.KeyfeaturesDta {
+    background: #ffffff;
+    padding: 35px 0;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.tradeFeatures {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.tradeFeatures h2 {
+    color: var(--Neutral-1000, #1C1F25);
+    text-align: center;
+    font-family: Poppins, SANS-SERIF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 116%;
+    padding-bottom: 35px;
+}
+
+.TradeFeutContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+    padding-top: 35px;
+}
+
+.imgtradeFeatures {
+    width: 100%;
+    height: 100%;
+}
+
+.imageContWrap1st {
+    display: flex;
+    width: 100%;
+    padding: 18.994px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 9.497px;
+    border-radius: 9.497px;
+}
+
+.imageContWrap2nd {
+    display: inline-flex;
+    padding: 17.089px;
+    align-items: center;
+    gap: 8.544px;
+    background: #F9F8F8;
+}
+
+.imageContWrap3rd {
+    display: flex;
+    width: 260.22px;
+    height: 221.282px;
+    padding: 18.994px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 9.497px;
+    flex-shrink: 0;
+    border-radius: 9.497px;
+    background: #F9F8F8;
+}
+
+.imageContWrap1st img {
+    height: 100%;
+    align-self: stretch;
+}
+
+.sectionKeyfeatures {
+    display: flex;
+    align-items: flex-start;
+    gap: 75px;
+    align-self: stretch;
+}
+
+.ElemntKeyfeatures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 30px;
+    padding: 20px;
+}
+
+.CustomKeyfeatures {
+    padding: 35px;
+    text-align: start;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+    justify-content: flex-start;
+    flex-flow: column;
+    border-radius: 8px;
+    border: 1px solid #407BFF;
+    background: #FFF;
+    box-shadow: 0 34px 33px -23px rgba(22, 28, 45, 0.13);
+}
+
+.CustomKeyfeatures h6 {
+    color: #161C2D;
+    font-family: Poppins, SANS-SERIF;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 152.381% */
+    letter-spacing: -0.5px;
+}
+
+@media screen and (max-width: 768px) {
+    .tradeFeatures {
+        margin-bottom: 5px;
+    }
+
+    .tradeFeatures h2 {
+        font-size: 32px;
+        padding-bottom: 0;
+    }
+
+    .TradeFeutContainer {
+        gap: 0;
+        flex-flow: column;
+    }
+
+    .ElemntKeyfeatures {
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+        gap: 15px;
+    }
+
+    .CustomKeyfeatures {
+        padding: 25px;
+    }
+
+    .CustomKeyfeatures h6 {
+        font-size: 18px;
+    }
+}

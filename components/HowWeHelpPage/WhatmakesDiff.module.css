@@ -1,0 +1,97 @@
+.WhatmakesDiffBG {
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    padding: 60px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 40px;
+}
+
+.Whtmakesoems {
+    font-family: "Roboto", sans-serif;
+    padding: 20px 0;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.Whtmakesoems h2 {
+    color: #171A31;
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.Whtmakesoems p {
+    color: #848484;
+    font-size: 16px;
+}
+
+.DirrderRest {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 100%;
+}
+
+.WhatmakesDiffText {
+    width: 32%;
+    float: left;
+    margin: 7px 7px 30px 7px;
+    font-family: "Roboto", sans-serif;
+    border-radius: 8px;
+    padding: 40px 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.WhatmakesDiffText h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+}
+
+.WhatmakesDiffText p {
+    color: #6E6E6E;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: "Roboto", sans-serif;
+}
+
+.WhatmakesDiffText a {
+    color: #3884C7;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .WhatmakesDiffBG {
+        padding: 30px 0;
+    }
+
+    .WhatmakesDiffText {
+        width: 46%;
+        padding: 25px 12px;
+        margin: 5px 5px 30px 5px;
+    }
+
+    .Whtmakesoems h2 {
+        font-size: 45px;
+    }
+
+    .WhatmakesDiffText img {
+        height: 44px;
+    }
+
+    .WhatmakesDiffText h3 {
+        line-height: 28px;
+    }
+}

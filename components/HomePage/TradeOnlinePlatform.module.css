@@ -1,0 +1,137 @@
+.TradeOnlinePlatformOnline {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    padding: 40px 0 60px;
+    height: auto;
+}
+
+.TrdetamOnline {
+    text-align: left;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.TrdetamOnline h2 {
+    color: #171A31;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.TrdetamOnline h2 span {
+    color: #66B167;
+}
+
+.TrdetamOnline p {
+    font-size: 16px;
+    color: #848484;
+}
+
+.TrdetamOnlineIMg {
+    text-align: left;
+    position: relative;
+    width: 90%;
+    margin-top: 40px;
+}
+
+.TrdetamOnlineIMg img {
+    width: 100%;
+}
+
+.NavTabsFlex {
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    text-align: left;
+    width: 86%;
+    gap: 1rem;
+}
+
+.finGobaTxt {
+    color: #737373;
+    font-size: 17px;
+    font-weight: 500;
+    /* border-top: 1px solid #000; */
+    border-radius: 6px !important;
+    /* padding-left: 0; */
+    border: 1px solid #000;
+}
+
+.finGobaTxt.nav-link.active {
+    color: #79BB7A !important;
+    background-color: transparent !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #79BB7A !important;
+    background-color: transparent !important;
+}
+
+.nav-link {
+    color: #79BB7A !important;
+}
+
+.finGobaTxt.active {
+    color: #79BB7A !important;
+    background-color: transparent !important;
+}
+
+.GlbDataImg {
+    font-family: "Roboto", sans-serif;
+    /* position: absolute;
+    top: 22%;
+    left: 5%;
+    width: 20%; */
+}
+
+.GlbDataImg h3 {
+    font-size: 30px;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.GlbDataImg p {
+    color: #2D2E2E;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: justify;
+}
+
+.GlbDataImg img {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .NavTabsFlex {
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 1rem;
+        margin-top: 20px;
+    }
+
+    .GlbDataImg {
+        /* top: 18%;
+        left: 2%;
+        width: 29%; */
+        width: 100%;
+    }
+
+    .GlbDataImg h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+        line-height: 28px;
+    }
+
+    .GlbDataImg p {
+        font-size: 13px;
+        line-height: 26px;
+        margin-bottom: 25px;
+    }
+
+    .TrdetamOnlineIMg {
+        overflow: hidden;
+        margin-top: 0;
+    }
+
+}

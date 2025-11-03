@@ -1,0 +1,165 @@
+.discoverGlobaldataBg {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.globDataSrch {
+    text-align: center;
+    width: 90%;
+    margin: 20px auto;
+    font-family: "Roboto", sans-serif;
+    padding: 15px;
+}
+
+.globDataSrch h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.globDataSrch p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #848484;
+}
+
+.GlbSrchListForm {
+    width: 74%;
+    background: #3884C7;
+    padding: 20px 32px;
+    margin: 0 auto;
+    display: flex;
+    gap: 1rem;
+    font-family: "Roboto", sans-serif;
+    border-radius: 5px;
+}
+
+.glbSlctFormSrch {
+    width: 40%;
+    border-radius: 0;
+    padding: 12px 20px;
+    font-size: 18px;
+    color: #747474;
+}
+
+.flbSlctFormSrch {
+    border-radius: 0;
+    background-image: url(/public/search-icon.png);
+    background-repeat: no-repeat;
+    background-position: 27px 15px;
+    padding: 12px 20px 12px 80px;
+}
+
+.globDataSrch img {
+    margin: 10px;
+}
+
+.EnrchglobData {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+    gap: 4rem;
+    padding: 40px 0 20px;
+}
+
+.hrLines {
+    height: 3px;
+    background: #AEAEAE;
+    width: 22%;
+    opacity: 1;
+    border: 2px solid #AEAEAE;
+}
+
+.EnrchglobData h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}
+
+.EnrichDataGlobaltr {
+    background: #F9F9F9;
+    margin: 20px;
+}
+
+.lsitofTradedata {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.lsitofTradedata li {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 35px 20px;
+    border-right: 0.1rem solid #3884C7;
+}
+
+.lsitofTradedata li:last-child {
+    border-right: none;
+}
+
+.listofTrade h3 {
+    font-size: 52px;
+    color: #3884C7;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.listofTrade h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 0;
+}
+
+.listofTrade p {
+    font-size: 14px;
+    color: #6E6E6E;
+}
+
+@media screen and (max-width: 768px) {
+    .discoverGlobaldataBg {
+        padding: 40px 0;
+    }
+
+    .globDataSrch {
+        width: 100%;
+        padding: 0;
+    }
+
+    .globDataSrch h1 {
+        font-size: 35px;
+        line-height: 44px;
+    }
+
+    .GlbSrchListForm {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .glbSlctFormSrch {
+        width: 100%;
+    }
+
+    .globDataSrch img {
+        width: 35%;
+    }
+
+    .flbSlctFormSrch {
+        background-position: 19px 15px;
+        padding: 12px 20px 12px 60px;
+    }
+}

@@ -1,0 +1,11 @@
+.inline-block {
+    display: inline-block;
+    font-size: 44px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 0;
+}
+
+.textBlue {
+    color: #3884C7!important;
+}

@@ -1,0 +1,274 @@
+.feature {
+    padding: 110px 0px 25px;
+    position: relative;
+}
+
+.feature .left-feature .feature-box .details {
+    text-align: right;
+}
+
+.feature .feature-box .details {
+    flex: 1;
+}
+
+.feature .section-title {
+    margin-bottom: 47px;
+    text-align: center;
+}
+
+.section-title .title {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 13px;
+    color: #242424;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.section-title p {
+    max-width: 650px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #555;
+    margin: 0 auto;
+}
+
+.feature .feature-box {
+    margin-bottom: 30px;
+    background: #fff;
+    display: flex;
+    transition: all 0.3s ease-in;
+    position: relative;
+}
+
+.feature .left-feature .feature-box .details {
+    text-align: right;
+}
+
+.details h4 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    color: #242424;
+    margin: 26px 0px 19px;
+    font-family: "Poppins", sans-serif;
+}
+
+.feature .feature-box .details .text {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+
+.feature .feature-box .icon-area {
+    display: flex;
+}
+
+.feature .feature-box .icon-area .icon {
+    align-self: center;
+}
+
+.feature .left-feature .feature-box .icon {
+    margin-left: 20px;
+}
+
+.feature .feature-box .icon {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 55px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.feature .right-feature .feature-box .details {
+    text-align: left;
+}
+
+svg.reacIcons {
+    color: #3b82f6;
+}
+
+.whaybest .about-img img {
+    animation: shapeani3 5s linear infinite;
+}
+
+.infyscrol img {
+    animation: shapeani3 5s linear infinite;
+}
+
+@keyframes shapeani3 {
+    0% {
+        transform: translateY(15px);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(15px);
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .feature .container,
+    .whaybest .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1140px;
+    }
+}
+
+.whaybest {
+    position: relative;
+    padding: 110px 0px 83px;
+    background: #F7F9FF;
+    font-family: "Poppins", sans-serif;
+}
+
+.curve.curve-bottom {
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+}
+
+.curve {
+    position: absolute;
+    z-index: 7;
+}
+
+.curve.curve-top {
+    left: 0;
+    top: -1px;
+    width: 100%;
+}
+
+.curve.curve-bottom:after,
+.curve.curve-bottom:before {
+    bottom: 0;
+}
+
+.curve:before {
+    left: 0;
+    border-right: 70vw solid transparent;
+}
+
+.curve:after,
+.curve:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom: 80px solid #fff;
+    position: absolute;
+}
+
+.curve.curve-top:before {
+    border-right: 30vw solid transparent;
+}
+
+.curve.curve-top:after,
+.curve.curve-top:before {
+    top: 0;
+    border-top: 80px solid #fff;
+    border-bottom: 0;
+}
+
+.curve.curve-top:after {
+    border-left: 70vw solid transparent;
+}
+
+.curve:after {
+    right: 0;
+    border-left: 30vw solid transparent;
+}
+
+.whaybest .row-one {
+    margin-bottom: 55px;
+}
+
+.whaybest .info .info-title {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #242424;
+    margin-bottom: 23px;
+    display: block;
+}
+
+.whaybest .feature-list {
+    padding-left: 0px;
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.whaybest .feature-list li {
+    max-width: 50%;
+    flex: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style: none;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.whaybest .feature-list li .icon {
+    margin-bottom: 14px;
+}
+
+.whaybest .feature-list li .content {
+    flex: 1;
+}
+
+.whaybest .feature-list li .content h4 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.whaybest .feature-list li .content p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.index2 .whaybest .about-img {
+    padding: 0px;
+}
+
+.whaybest .about-img {
+    text-align: center;
+    padding: 0px 90px;
+    align-self: center;
+}
+
+.whaybest .about-img img {
+    animation: shapeani3 5s linear infinite;
+}
+
+
+@media (min-width: 992px) {
+    .order-lg-last {
+        -webkit-box-ordinal-group: 14;
+        -ms-flex-order: 13;
+        order: 13;
+    }
+}
+
+@media (max-width: 768px) {
+    .whaybest .about-img img {
+        margin-bottom: 40px;
+    }
+
+    .whaybest .feature-list li .content h4 {
+        font-size: 20px;
+        line-height: 27px;
+    }
+}

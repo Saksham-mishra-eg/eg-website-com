@@ -1,0 +1,339 @@
+.CustmPlaand {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
+    background-color: #fff;
+}
+.tabpaneMarmg{
+    margin-top: 0!important;
+}
+
+.PricnOverw {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.PricnOverw h2 {
+    color: #000;
+    font-size: calc(1.65rem + .9vw);
+    font-weight: 600;
+}
+
+.selcBuyCntr {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 40px 20px;
+    width: 100%;
+}
+
+.selcBuy {
+    font-size: 24px;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    padding: 30px 0;
+}
+
+.FormCheckbx {
+    width: 28%;
+    float: left;
+    padding: 10px;
+    border: 1px solid #3884C7;
+    margin: 10px;
+    padding-left: 40px;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.FormItemsBs {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.FormCheckbx label {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #2D2E2E;
+}
+
+.FormCheckbx .form-check-input {
+    border: 1px solid #3884C7 !important;
+}
+
+.form-check-input[type=checkbox] {
+    border: 1px solid #3884C7 !important;
+}
+
+.form-check .form-check-input {
+    border: 1px solid #3884C7 !important;
+}
+
+.LinkselcBuy {
+    color: #4F4F4F;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.YourProducts {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 10px 20px 40px 20px;
+    width: 100%;
+    border-top: 4px solid #3884C7;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.prodcth3lg {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.prodcth3lg h3 {
+    color: #4F4F4F;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    margin-top: .5rem;
+}
+
+.ProducBodx {
+    background: #F8F8F8;
+    border: 0;
+    border-color: #F8F8F8;
+    border-radius: 0;
+}
+
+.CrdTitle {
+    color: #393939;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+
+.CrdTixt {
+    color: #6E6E6E;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: var(--bs-card-title-spacer-y);
+}
+
+.cardBoddy {
+    position: relative;
+    padding: 25px 20px;
+    cursor: pointer;
+    height: 450px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-top: 0;
+
+}
+
+.carbdTilusd {
+    display: block;
+    width: 100%;
+    padding: 20px 0 12px 0;
+    position: sticky;
+    top: 0px;
+    background: #f8f8f8;
+}
+
+.CloseBodybtn {
+    position: absolute;
+    right: 11px;
+    top: 8px;
+    width: 0.30em;
+    height: 0.30em;
+}
+
+.Counter {
+    text-align: center;
+}
+
+.Counter h2 {
+    margin: 20px 0;
+}
+
+.Counter button {
+    margin: 0 10px;
+    padding: 10px 20px;
+}
+
+.BntGourCld {
+    margin-left: -31px;
+    width: 30px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.InputBxGrpup {
+    width: 100%;
+    min-width: 60px;
+    display: inline-flex !important;
+}
+
+.inputIncDex {
+    padding: 9px 10px;
+    border-radius: 3px;
+    border: 1px solid #cbd6e2;
+    font-size: 16px;
+    transition: all .15s ease-out;
+    background-color: #FCFCFC;
+    color: #33475b;
+    display: block;
+    height: 40px;
+    line-height: 22px;
+    text-align: left;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.updownBtn {
+    padding: 0;
+    flex-grow: 1;
+    border-top: 0;
+    margin-top: 1px;
+    line-height: 14px;
+    background-color: #ffffff;
+    border-color: #b5b5b5;
+    position: relative;
+}
+
+.YourProducts_box {
+    margin-bottom: 20px;
+}
+
+.BillingMonthyly {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.BillingMonthyly h3 {
+    color: #3884C7;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.BillingMonthyly p {
+    color: #6E6E6E;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.BillingMonthyly h6 {
+    color: #393939;
+    font-size: 14px;
+}
+
+.BillingMonthyly h4 {
+    font-size: 22px;
+    color: #6E6E6E;
+    font-weight: 400;
+}
+
+.TaklSelsbn {
+    font-family: "Roboto", sans-serif;
+    background: #3884C7;
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 0;
+    color: #fff;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.TaklSelsbn:hover{
+    color: #fff;
+    background-color: #176db7;
+}
+
+.viewPricebn {
+    color: #3884C7;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.coushwoTxt {
+    text-align: center;
+}
+
+.coushwoTxt p {
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.lsitContrNme{
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.lsitContrNme p{
+    margin-bottom: 0;
+    width: 100%;
+    color: #000;
+}
+.lsitContrNme h6{
+    font-weight: 500;
+    font-size: 14px;
+    width: 100%;
+    text-align: right;
+}
+
+.onmoyrsSlect{
+    text-align: center;
+    padding: 0 30px 0 0;
+    border: 0;
+    box-shadow: none;
+    outline: none;
+    font-size: 14px;
+    background-color: transparent;
+    width: 100%;
+}
+
+.FormCheckbx input[type="checkbox"] {
+    appearance: none;
+    border: 1px solid #7b7b7b;
+    cursor: pointer;
+    margin-left: -2em;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .selcBuyCntr {
+        padding: 10px;
+    }
+
+    .FormItemsBs {
+        padding: 0;
+    }
+
+    .FormCheckbx input[type="checkbox"] {
+        margin-left: -1em;
+    }
+
+    .FormCheckbx {
+        margin: 5px;
+        width: 47%;
+        padding: 5px 5px 5px 22px;
+        gap: 0.3rem;
+    }
+
+    .YourProducts {
+        margin-top: 30px;
+    }
+    .PricnOverw h2{
+        line-height: 40px;
+    }
+    .PricnOverw{
+        padding-bottom: 0;
+    }
+}
