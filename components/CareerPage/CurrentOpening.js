@@ -1,9 +1,6 @@
 "use client";
-import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./CurrentOpening.module.css";
-import { Card, Container, Col, Form, Row } from "react-bootstrap";
-import Accordion from 'react-bootstrap/Accordion';
-import { useAccordionButton } from 'react-bootstrap/AccordionButton';
+import { Card, Container, Col, Form, Row, Accordion, useAccordionButton } from "react-bootstrap";
 import { useState, useMemo } from "react";
 import { Controller, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";

@@ -1,5 +1,4 @@
 "use client";
-import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./OurCulture.module.css";
 import { Col, Row, Container } from "react-bootstrap";
 import Image from "next/image";

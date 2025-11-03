@@ -1,5 +1,4 @@
 "use client";
-import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./WhyWork.module.css";
 import { Col, Row, Container } from "react-bootstrap";
 
