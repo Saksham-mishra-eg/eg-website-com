@@ -3,14 +3,14 @@ import React, { useEffect } from "react";
 
 const ZohoForm = ({ containerId, formUrl }) => {
   useEffect(() => {
-    const container = document.getElementById(containerId);
+    const container = window.getElementById(containerId);
     if (!container) return;
 
     // clear old content if re-render
     container.innerHTML = "";
 
     // create iframe
-    const f = document.createElement("iframe");
+    const f = window.createElement("iframe");
     let ifrmSrc = formUrl.includes("?") ? formUrl + "&zf_rszfm=1" : formUrl + "?zf_rszfm=1";
 
     try {
