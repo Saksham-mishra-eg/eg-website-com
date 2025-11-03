@@ -1,3 +1,4 @@
+"use client";
 export const trackEvent = ({ action, category, label, value }) => {
   if (typeof window.gtag !== "undefined") {
     const eventParams = {

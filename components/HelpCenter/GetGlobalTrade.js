@@ -1,18 +1,25 @@
 "use client";
-import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
 import styles from "../HomePage/GetGlobalTrade.module.css"
 import { Container, Col, Row, Button } from "react-bootstrap";
-import { Player } from '@lottiefiles/react-lottie-player';
+import dynamic from "next/dynamic";
+import { useRouter } from "next/navigation";
 
-function GetGlobalTrade() {
+const Player = dynamic(
+    () => import("@lottiefiles/react-lottie-player").then((mod) => mod.Player),
+    { ssr: false }
+);
+
+const GetGlobalTrade = React.memo(() => {
+    const router = useRouter();
 
     const handleChangeUrl = () => {
-        window.location.href = "contact-us";
-    }
+        router.push("/contact-us");
+    };
 
     const handleChangeLogin = () => {
-        window.location.href = "https://dashboard2.exportgenius.in";
-    }
+        window.open("https://dashboard2.exportgenius.in", "_blank");
+    };
 
     const backgroundStyle = {
         position: 'absolute',
@@ -47,6 +54,6 @@ function GetGlobalTrade() {
             </Container>
         </div>
     );
-};
+});
 
 export default GetGlobalTrade;
