@@ -1,9 +1,8 @@
 "use client";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
 const ZohoForm = ({ containerId, formUrl }) => {
   useEffect(() => {
-     if (typeof document !== "undefined") {
     const container = document.getElementById(containerId);
     if (!container) return;
 
@@ -92,7 +91,6 @@ const ZohoForm = ({ containerId, formUrl }) => {
       window.removeEventListener("message", handleMessage, false);
       if (container) container.innerHTML = "";
     };
-  }
   }, [containerId, formUrl]);
 
   // just return the target container

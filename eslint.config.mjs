@@ -9,8 +9,8 @@ const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
 
-const eslintConfig = [
-  ...compat.extends("next/core-web-vitals"),
+export default [
+  ...compat.extends("next/core-web-vitals"),  
   {
     ignores: [
       "node_modules/**",
@@ -23,12 +23,7 @@ const eslintConfig = [
   {
     rules: {
       "react/no-unescaped-entities": "off",
-      "react/display-name": "off"
+      "react/display-name": "off",
     },
   },
-  {
-  "ignorePatterns": [".next/*", "out/*", "build/*", "next-env.d.ts"]
-},
 ];
-
-export default eslintConfig;
