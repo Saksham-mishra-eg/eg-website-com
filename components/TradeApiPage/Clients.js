@@ -1,5 +1,4 @@
 "use client";
-import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./Clients.module.css";
 import { Container, Row } from "react-bootstrap";
 import React from "react";
