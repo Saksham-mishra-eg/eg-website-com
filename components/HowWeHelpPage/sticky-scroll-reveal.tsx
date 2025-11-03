@@ -6,19 +6,22 @@ import { cn } from "./cn";
 import { Container, Col, Row } from "react-bootstrap";
 import "./talwind.css"
 
-export const StickyScroll = ({
-  content,
-  contentClassName,
-}: {
-  content: {
-    title: string;
-    description: string;
-    listItems: string[];
-    content?: React.ReactNode | any;
-  }[];
-  contentClassName?: string;
-}) => {
-  const [activeCard, setActiveCard] = React.useState(0);
+const backgroundColors = [
+  "var(--slate-900)",
+  "var(--black)",
+  "var(--neutral-900)",
+];
+
+const linearGradients = [
+  // "linear-gradient(to bottom right, var(--cyan-500), var(--emerald-500))",
+  // "linear-gradient(to bottom right, var(--pink-500), var(--indigo-500))",
+  // "linear-gradient(to bottom right, var(--orange-500), var(--yellow-500))",
+];
+
+export const StickyScroll = ({ content, contentClassName }) => {
+  const [activeCard, setActiveCard] = useState(0);
+  const [backgroundGradient, setBackgroundGradient] = useState(linearGradients[0]);
+
   const ref = useRef<any>(null);
   const { scrollYProgress } = useScroll({
     // uncomment line 22 and comment line 23 if you DONT want the overflow container and want to have it change on the entire page scroll
@@ -43,25 +46,9 @@ export const StickyScroll = ({
     setActiveCard(closestBreakpointIndex);
   });
 
-  const backgroundColors = [
-    "var(--slate-900)",
-    "var(--black)",
-    "var(--neutral-900)",
-  ];
-  const linearGradients = [
-    // "linear-gradient(to bottom right, var(--cyan-500), var(--emerald-500))",
-    // "linear-gradient(to bottom right, var(--pink-500), var(--indigo-500))",
-    // "linear-gradient(to bottom right, var(--orange-500), var(--yellow-500))",
-  ];
-
-  const [backgroundGradient, setBackgroundGradient] = useState(
-    linearGradients[0]
-  );
-
-  useEffect(() => {
+useEffect(() => {
     setBackgroundGradient(linearGradients[activeCard % linearGradients.length]);
   }, [activeCard]);
-};
 
   return (
     <div className="">
