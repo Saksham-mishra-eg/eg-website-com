@@ -1,0 +1,70 @@
+.oveClntsSection {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    height: auto;
+}
+
+.oveClnts {
+    background-image: linear-gradient(to right, #283E7A, #0C5E9D);
+    padding: 20px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.oveClntsImng {
+    background: #D9D9D9;
+    padding: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.selitxtImngf img {
+    width: 20%;
+    object-fit: scale-down;
+    background: none;
+    mix-blend-mode: darken;
+}
+
+.selitxt h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.selitxt p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.selitxtImngf {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.selitxt {
+    text-align: center;
+}
+
+.clientListImngs{
+    list-style: none;
+    display: inline-flex;
+    gap: 1rem;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .oveClnts {
+        width: 100%;
+    }
+
+    .oveClntsImng {
+        width: 100%;
+    }
+}

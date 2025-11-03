@@ -1,0 +1,59 @@
+.GetNewsOnline {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    padding: 60px;
+    height: auto;
+    margin-bottom: 60px;
+}
+
+.redirectBg {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 40px 60px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.redirectBg h3 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 600;
+}
+
+.redirectBg h6 {
+    color: #2A2A2A;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.redirectBg p {
+    color: #848484;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.redirectBg a {
+    text-decoration: none;
+}
+
+.WrlLrgTxt {
+    padding: 20px 0 40px;
+    text-align: center;
+}
+
+.WrlLrgTxt h2 {
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    .GetNewsOnline{
+        padding: 10px;
+    }
+    .redirectBg{
+        padding: 40px;
+        margin-bottom: 35px;
+    }
+}

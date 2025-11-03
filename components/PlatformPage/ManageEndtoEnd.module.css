@@ -1,0 +1,252 @@
+.MangeEndtoend {
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    padding: 60px;
+    font-family: "Roboto", sans-serif;
+}
+
+.pltrtradeText {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.pltrtradeText h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+}
+
+.tabofMatrial {
+    color: #4F4F4F !important;
+    font-weight: 500 !important;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 16px !important;
+}
+
+.comprHendTbs {
+    padding: 20px 0;
+}
+
+.inetleInstigh {
+    font-family: "Roboto", sans-serif;
+}
+
+.inetleInstigh h6 {
+    font-size: 14px;
+    color: #3884C7;
+    font-weight: 400;
+    margin-bottom: 15px;
+    display: inline-block;
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+}
+
+.inetleInstigh h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #4F4F4F;
+    margin-bottom: 15px;
+}
+
+.inetleInstigh p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #848484;
+    line-height: 179%;
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+.Explormorebtn {
+    background-color: #3884C7;
+    color: #fff;
+    border-radius: 40px;
+    padding: 11px 25px !important;
+    text-decoration: none;
+    vertical-align: -webkit-baseline-middle;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+}
+
+.Explormorebtn {
+    color: #fff;
+    background: #154bbf;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 8px 15px;
+    border-radius: 0;
+    border: none;
+    position: relative;
+    box-shadow: -4px -4px 0px #fff;
+    z-index: 1;
+    transition: all 0.35s;
+}
+
+.Explormorebtn:hover,
+.Explormorebtn:focus {
+    color: #fff;
+    box-shadow: 4px 4px 0px #fff, 10px 10px 0px #154bbf;
+}
+
+.Explormorebtn:before {
+    content: "";
+    background: #154bbf;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.3s all;
+    z-index: -1;
+}
+
+.Explormorebtn:hover:before {
+    width: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+    .Explormorebtn {
+        margin-bottom: 30px;
+    }
+}
+
+
+.FomrDentnormCrer {
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 6px;
+    font-family: "Roboto", sans-serif;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+}
+
+
+.formLaelCar {
+    font-size: 16px;
+    color: #171a31bb;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.formContrCaresd {
+    border-radius: 2px;
+    color: #A19D9D;
+    outline: none;
+    box-shadow: none;
+    border-color: #A19D9D;
+}
+
+.formContrCaresd:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #A19D9D;
+}
+
+.formLaelCarresm {
+    font-size: 16px;
+    color: #292929;
+    font-family: "Roboto", sans-serif;
+}
+
+.modalHeader {
+    background-image: linear-gradient(to right, #1d60dc, #2c6ee8);
+    color: #fff;
+    padding: 14px 20px;
+}
+
+.subtmBtinFrom {
+    color: #fff;
+    background-color: #333;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding: 8px 22px 9px;
+    border: none;
+    border-radius: 0;
+    position: relative;
+    z-index: 1;
+    transition: all 0.4s ease 0s;
+}
+
+.subtmBtinFrom:focus {
+    color: #fff;
+}
+
+.subtmBtinFrom:hover {
+    color: #fff;
+    background: #333;
+    box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.5);
+}
+
+.subtmBtinFrom:before,
+.subtmBtinFrom:after {
+    content: '';
+    background-color: #154bbf;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: scaleX(0);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: all 0.3s ease-in 0s;
+}
+
+.subtmBtinFrom:after {
+    background-color: #154bbf;
+    border-radius: 0;
+    transform: scaleX(1);
+}
+
+.subtmBtinFrom:hover:before {
+    border-radius: 0;
+    opacity: 1;
+    transform: scaleX(1);
+}
+
+.subtmBtinFrom:hover:after {
+    border-radius: 50%;
+    opacity: 1;
+    transform: scaleX(0);
+}
+
+
+@media screen and (max-width: 768px) {
+    .MangeEndtoend {
+        padding: 60px 0;
+    }
+
+    .inimgigh img {
+        width: 100%;
+    }
+
+    .tabofMatrial {
+        display: inline-block !important;
+        min-height: auto !important;
+        font-size: 14px !important;
+        padding: 12px 9px !important;
+    }
+
+    .boxclanameMogile {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .MuiTabs-flexContainer {
+        display: block !important;
+    }
+
+
+}

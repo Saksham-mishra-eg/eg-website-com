@@ -1,0 +1,36 @@
+.WeAreegOBg {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    padding: 70px 0;
+    background-color: #fff;
+}
+
+.WEEhading {
+    font-family: "Roboto", sans-serif;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.WEEhading h3 {
+    font-size: 40px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.WEEhading p {
+    color: #171a31bf;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+    .WeAreegOBg {
+        padding-top: 20px;
+    }
+
+    .WEEhadingVideo img {
+        width: 100%;
+    }
+}

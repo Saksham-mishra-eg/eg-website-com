@@ -1,0 +1,38 @@
+@import "rsuite/dist/rsuite.css";
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 600px;
+    }
+}
+
+.modal {
+    background-color: rgb(0 0 0 / 25%);
+    position: fixed;
+}
+
+.modal-title {
+    font-size: 1.2rem;
+}
+
+.css-165mck1 {
+    min-width: 175px !important;
+}
+
+
+.css-10o2lyd-MuiStack-root>.MuiTextField-root,
+.css-10o2lyd-MuiStack-root>.MuiPickersTextField-root {
+    min-width: 175px !important;
+}
+
+.css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root {
+    margin-right: 0 !important;
+}
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 11.5px 14px !important;
+}
+
+.form-select:focus {
+    box-shadow: none;
+}

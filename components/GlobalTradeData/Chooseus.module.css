@@ -1,0 +1,84 @@
+.WhyChooseUsSeton {
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+.chooseHeading {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    color: #242424;
+    text-align: center;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+}
+
+.chooseBoxmodal {
+    --bs-bg-opacity: 1;
+    background-color: #F7F9FF;
+    overflow: hidden;
+    position: relative;
+    gap: 1.5rem;
+    box-shadow: var(--bs-box-shadow);
+    padding: 27px 25px 35px;
+    border-radius: 0.75rem;
+    align-items: flex-start;
+    display: flex;
+    text-align: center;
+}
+
+.chooseBoxmodal:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0px 20px 20px 2px rgba(0, 0, 0, 0.1);
+}
+
+.chooseBoxmodal:hover::after {
+    width: 100%;
+}
+
+.chooseBoxmodal::after {
+    position: absolute;
+    content: "";
+    bottom: 0px;
+    left: 0px;
+    height: 4px;
+    width: 0%;
+    background-image: linear-gradient(55deg, #0250c5 0%, #478E48 100%);
+    transition: all 0.3s ease-in;
+}
+
+.choseFilterad {
+    font-size: 21px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #242424;
+    margin: 17px 0px 17px;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.3s ease-in;
+}
+
+.fontfilterpara {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.625;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    margin-bottom: 0px;
+    transition: all 0.3s ease-in;
+}
+
+.chooseHeadingPra {
+    max-width: 650px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #555;
+    margin: 0 auto;
+    hyphens: auto;
+    text-align: center;
+}
+
+.whyLayerSvg {
+    font-size: 82px;
+    color: #3b82f6;
+}

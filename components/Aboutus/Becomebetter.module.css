@@ -1,0 +1,55 @@
+.BecomebetterBg {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding: 60px 0;
+    background-image: url(/public/vectorbg.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.FocuOnFeaturs {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.FocuOnFeaturs h2 {
+    font-size: 40px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.FocuOnFeaturs p {
+    font-size: 16px;
+    color: #848484;
+    width: 60%;
+    margin: 25px auto;
+    line-height: 28px;
+}
+
+.aPllyNowbtn {
+    background-color: #2B96F4;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    padding: 13px 65px;
+    border-color: #2B96F4;
+    border-style: none;
+}
+
+@media screen and (max-width: 768px) {
+    .FocuOnFeaturs {
+        width: 100%;
+        padding: 0;
+    }
+
+    .FocuOnFeaturs p {
+        width: 100%;
+    }
+
+}

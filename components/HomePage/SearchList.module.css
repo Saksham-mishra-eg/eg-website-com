@@ -1,0 +1,71 @@
+.SearchListOnline {
+    background-color: #3884C7;
+    padding: 70px 0;
+    width: 100%;
+}
+
+.SrchListTxt {
+    text-align: center;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 40px;
+}
+
+.SrchListTxt h2 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 55px;
+}
+
+.SrchListTxt p {
+    font-size: 16x;
+    color: #fff;
+}
+
+.SrchListForm {
+    display: flex;
+    background: #fff;
+    padding: 20px;
+    gap: 1rem;
+}
+
+.SlctFormSrch {
+    border: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #848484;
+}
+
+.SlctFormSrch:focus {
+    box-shadow: none;
+}
+
+.SlctFormSrchBtn {
+    background-color: #0FC135;
+    color: #fff;
+    width: 48%;
+    font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+
+    .SrchListTxt h2 {
+        font-size: 33px;
+        line-height: 46px;
+        margin-bottom: 20px;
+    }
+
+    .SrchListForm {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .SlctFormSrchBtn {
+        width: 100%;
+    }
+
+    .SlctFormSrch {
+        border-bottom: 1px solid;
+    }
+}

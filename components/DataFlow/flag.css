@@ -1,0 +1,30 @@
+.card.tblCard {
+    background: var(--surface-card);
+    padding:  0;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+span.flag {
+    width: 44px;
+    height: 30px;
+    display: inline-block;
+}
+
+img.flag {
+    width: 30px;
+}
+
+ .tblCard thead tr th{
+    background-color: #e2e2e2;
+    padding: 1rem 0.56rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000;
+}
+.tblCard tbody tr td{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    padding: 0.76rem 0.56rem;
+}

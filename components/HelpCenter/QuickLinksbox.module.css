@@ -1,0 +1,58 @@
+.QuickLinksboxSection {
+    width: 100%;
+    background: #fff;
+    display: block;
+    height: auto;
+    padding: 20px 0 80px 0;
+}
+
+.qudklNks {
+    width: 100%;
+    display: block;
+    margin: 20px 0;
+}
+
+.qudklNks h2 {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #000000;
+}
+
+.quicllinYTabs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.LinksofBoxex a{
+    background: #0088ff1c;
+    padding: 20px 50px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+    width: 290px;
+    height: auto;
+    text-decoration: none;
+}
+
+.LinksofBoxex p{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+    .LinksofBoxex a{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .quicllinYTabs{
+        display: block;
+    }
+}

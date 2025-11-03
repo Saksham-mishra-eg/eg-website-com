@@ -1,0 +1,75 @@
+.Dtprotections {
+    background-color: #ffffff;
+    padding: 30px 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.datheaignpro {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.datheaignpro h2 {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.acroBanner {
+    padding-left: 35px;
+}
+
+.acrodiaondata {
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.acordiHeading {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.acnrdionItemsmrg {
+    margin-bottom: 35px;
+}
+
+.acordiHeading button {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #000000;
+    text-transform: uppercase;
+    background-color: #F6F6F6;
+}
+
+.acrdionBdyutxt {
+    color: #848484;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+    .datheaignpro {
+        padding: 0;
+    }
+
+    .datheaignpro h2 {
+        margin-bottom: 5px;
+    }
+
+    .acrodiaondata {
+        padding: 40px 0;
+    }
+}

@@ -1,0 +1,64 @@
+.GlobTrustedClientBg {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.CusomerSuproGlobal {
+    width: 100%;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.CusomerSuproGlobal h2 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #000;
+}
+
+.clientIcnimgGlobl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+}
+
+.imgClinEn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: left;
+    padding: 0px 5px 5px 0px;
+    width: 20%;
+    justify-content: center;
+}
+
+.imgClinEn img {
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .imgClinEn {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .clientIcnimgGlobl {
+        justify-content: space-evenly;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 25px;
+    }
+
+    .imgClinEn {
+        width: auto;
+    }
+
+    .imgClinEn img {
+        height: auto;
+    }
+}

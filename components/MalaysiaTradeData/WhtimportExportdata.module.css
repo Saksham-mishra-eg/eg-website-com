@@ -1,0 +1,144 @@
+.imporExportDta {
+    background: #F8FBFE;
+    padding: 52px 0;
+    width: 100%;
+}
+
+.ContainerImpExp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+    width: 100%;
+    margin: auto;
+}
+
+.sectiHeadngFirst {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--stack-3xl, 32px);
+    align-self: stretch;
+}
+
+.sectiHeadngSecond {
+    display: flex;
+    align-items: flex-start;
+    gap: 75px;
+    align-self: stretch;
+}
+
+.sectiHeadngthird {
+    display: flex;
+    padding: 16px 25px;
+    margin: 0px 62px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 10px;
+    background: #407BFF;
+}
+
+.dataHeaignText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--stack-lg, 16px);
+    align-self: stretch;
+    width: 60%;
+    margin: auto;
+}
+
+.dataHeaignText h2 {
+    color: var(--Neutral-1000, #1C1F25);
+    text-align: center;
+    font-family: Poppins, SANS-SERIF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 116%;
+    /* 41.76px */
+}
+
+.dataHeaignText p {
+    color: var(--Neutral-N800, #4B5162);
+    text-align: center;
+    font-family: Poppins, SANS-SERIF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    opacity: 0.8;
+    /* 25.6px */
+}
+
+.ElemntContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 20px;
+    margin: auto;
+}
+
+.emelentItemsCont {
+    background-color: transparent;
+    padding: 10px;
+    text-align: start;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+    justify-content: flex-start;
+}
+
+.emelentItemsCont h4 {
+    color: var(--Neutral-1000, #1C1F25);
+    font-family: Poppins, SANS-SERIF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142%;
+}
+
+.sectiHeadngthird p {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins, SANS-SERIF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    width: 80%;
+    margin: auto;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+    .dataHeaignText {
+        width: 100%;
+    }
+
+    .ElemntContainer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .emelentItemsCont {
+        gap: 15px;
+        padding: 5px;
+    }
+
+    .emelentItemsCont h4 {
+        font-size: 16px;
+    }
+
+    .sectiHeadngthird {
+        margin: 0;
+    }
+
+    .sectiHeadngthird p {
+        width: 100%;
+        font-size: 15px;
+    }
+}

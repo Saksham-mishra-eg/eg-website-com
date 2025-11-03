@@ -1,0 +1,106 @@
+.DetailedPricingBg {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.PricnOverw {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.viewLLs {
+    cursor: pointer;
+    color: darkslateblue;
+    font-weight: 500;
+}
+
+.PricnOverw h2 {
+    color: #000;
+    font-size: calc(1.65rem + .9vw);
+    font-weight: 600;
+}
+
+.StartEnstial tr th {
+    color: #3884C7;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+
+.TbodyEnstial tr td {
+    color: #6E6E6E;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+}
+
+.TbodyEnstial tr td a {
+    text-decoration: none;
+    color: #3984C7;
+}
+
+.TbodyEnstial tr th {
+    color: #444444;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.modalBodytxt p {
+    text-align: center;
+    line-height: 35px;
+    color: #444444;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.modalHeader {
+    background-image: linear-gradient(to right, #1d60dc, #2c6ee8);
+    color: #fff;
+    padding: 14px 20px;
+}
+
+.modalBodytxt ul {
+    display: inline-block;
+    width: 100%;
+}
+
+.modalBodytxt>ul>li {
+    list-style: circle;
+    width: 33%;
+    float: left;
+    color: #545454;
+    font-family: roboto, sans-serif;
+    font-size: 13px;
+    padding: 6px 0;
+    letter-spacing: .25px;
+}
+
+.liWithfull li {
+    width: 100% !important;
+}
+
+.liWithHalf {
+    width: 50% !important;
+}
+
+.liWithHalf li {
+    width: 100% !important;
+}
+
+@media screen and (max-width: 768px) {
+    .TbodyEnstial tr th {
+        font-size: 14px;
+    }
+
+    .modalBodytxt>ul>li {
+        width: 50%;
+    }
+
+    .modalBodytxt>ul {
+        padding-left: 1rem;
+    }
+}

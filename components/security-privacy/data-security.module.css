@@ -1,0 +1,57 @@
+.dataSecurityars {
+    background-color: #ffffff;
+    padding: 80px 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.dataSecuHeading {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.dataSecuHeading h2 {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.dataScannning {
+    border-radius: 10px;
+    background: #FAFAFA;
+    padding: 50px;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.dataScannning h3 {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.dataScannning p {
+    color: #848484;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+@media screen and (max-width: 768px){
+    .dataScannning{
+        padding: 40px 0;
+    }
+    .dataSecurityars{
+        padding-top: 20px;
+    }
+}

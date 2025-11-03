@@ -1,0 +1,66 @@
+.headerImageIcon {
+    display: inline;
+}
+
+.navLinsk {
+    color: #000 !important;
+    font-weight: 500 !important;
+    font-family: "Roboto", sans-serif !important;
+    font-size: 0.9rem !important;
+    text-transform: uppercase !important;
+}
+
+.loingBtn {
+    background-color: #3884C7 !important;
+    color: #fff !important;
+    border-radius: 40px;
+    padding: 9px 25px !important;
+}
+
+.loingBtn:hover {
+    background-color: #0e5b9f !important;
+    color: #fff !important;
+}
+
+.TrlBtn {
+    background-color: #478E48 !important;
+    color: #fff !important;
+    border-radius: 40px;
+    padding: 9px 25px !important;
+}
+
+.TrlBtn:hover {
+    background-color: #1a761c !important;
+    color: #fff !important;
+}
+
+.navBrnNab {
+    gap: 1rem;
+}
+
+.navBrndBg {
+    background-color: #fff !important;
+}
+
+.navdropItemslnk {
+    text-transform: capitalize;
+    border-bottom: 1px dashed #dcdcdc !important;
+    padding: 0.65rem 1.65rem !important;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    display: inline-flex !important;
+    gap: 0.6rem !important;
+}
+
+.navdropItemslnk:hover {
+    background-color: #0d6efd !important;
+    color: #fff !important;
+}
+
+.svgImgNav {
+    fill: #212529;
+}
+
+.navdropItemslnk:hover .svgImgNav {
+    fill: #fff;
+}

@@ -1,0 +1,44 @@
+.securituPrivsen {
+    background-color: #F6F6F6;
+    padding: 80px 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.securtyPartner {
+    width: 100%;
+}
+
+.securtyPartner h1 {
+    font-size: 55px;
+    line-height: 66px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.securtyPartner p {
+    font-size: 16px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 768px) {
+    .securtyPartner h1 {
+        font-size: 42px;
+        line-height: 56px;
+        margin-bottom: 25px;
+        width: 100%;
+    }
+
+    .securtyPartner {
+        padding: 20px 0;
+    }
+
+}

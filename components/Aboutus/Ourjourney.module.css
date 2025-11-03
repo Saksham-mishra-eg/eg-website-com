@@ -1,0 +1,70 @@
+.OurjourneyBg {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
+    background-image: radial-gradient(#3884C7 10%, #1D70B9 50%, #005CAD 100%);
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+}
+
+.ortimeLigHoei {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.ourJurneyBoxtd {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: -10em;
+}
+
+.FocuOndJrny {
+    font-family: "Roboto", sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 100%;
+    height: 400px;
+    width: 400px;
+    padding: 40px;
+    align-content: center;
+    background: linear-gradient(30deg, #2677BE 46%, #64a7e2 90%, #0662B2 100%);
+}
+
+.FocuOndJrny h2 {
+    color: #FFFFFF;
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.FocuOndJrny p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .FocuOndJrny {
+        box-shadow: none;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        background: no-repeat;
+    }
+
+    .FocuOndJrny h2 {
+        font-size: 42px;
+    }
+
+    .FocuOndJrny p {
+        display: none;
+    }
+
+    .ourJurneyBoxtd {
+        margin-top: 0;
+    }
+}

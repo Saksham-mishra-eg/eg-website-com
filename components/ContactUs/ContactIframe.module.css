@@ -1,0 +1,190 @@
+.ContactIframeBg {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    padding: 40px 0 60px;
+    height: auto;
+    background-color: #ffffff;
+}
+
+.CntsctBgColr {
+    width: 100%;
+    padding: 40px 30px;
+    height: auto;
+    background-color: #F4F4F4;
+    margin: 0px;
+}
+
+.ContactAreas {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.ContactAreas h3 {
+    color: #3884C7;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.ContactAreas h1 {
+    color: #000000;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 54px;
+    margin-bottom: 20px;
+}
+
+.wantSee {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.wantSee img {
+    width: 68px;
+    height: 68px;
+}
+
+.dSdhdemo {
+    text-align: left;
+}
+
+.dSdhdemo h5 {
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+}
+
+.dSdhdemo h5 span {
+    color: #66B167;
+}
+
+.dSdhdemo h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #66B167;
+    margin-bottom: 0;
+}
+
+.IframeAreassectn {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.FomrZohoImplmnrt {
+    width: 100%;
+}
+
+.formLaelCar {
+    font-size: 16px;
+    color: #171a31bb;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.formContrCaresd {
+    border-radius: 2px;
+    color: #A19D9D;
+    outline: none;
+    box-shadow: none;
+    border-color: #A19D9D;
+}
+
+.formContrCaresd:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #A19D9D;
+}
+
+.formLaelCarresm {
+    font-size: 16px;
+    color: #292929;
+    font-family: "Roboto", sans-serif;
+}
+
+.subtmBtinFrom {
+    color: #fff;
+    background-color: #333;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding: 8px 22px 9px;
+    border: none;
+    border-radius: 0;
+    position: relative;
+    z-index: 1;
+    transition: all 0.4s ease 0s;
+}
+
+.subtmBtinFrom:focus {
+    color: #fff;
+}
+
+.subtmBtinFrom:hover {
+    color: #fff;
+    background: #333;
+    box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.5);
+}
+
+.subtmBtinFrom:before,
+.subtmBtinFrom:after {
+    content: '';
+    background-color: #154bbf;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: scaleX(0);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: all 0.3s ease-in 0s;
+}
+
+.subtmBtinFrom:after {
+    background-color: #154bbf;
+    border-radius: 0;
+    transform: scaleX(1);
+}
+
+.subtmBtinFrom:hover:before {
+    border-radius: 0;
+    opacity: 1;
+    transform: scaleX(1);
+}
+
+.subtmBtinFrom:hover:after {
+    border-radius: 50%;
+    opacity: 1;
+    transform: scaleX(0);
+}
+
+@media screen and (max-width: 768px) {
+    .CntsctBgColr {
+        padding: 15px;
+        margin: 0;
+    }
+
+    .ContactAreas h1 {
+        font-size: 34px;
+        line-height: 45px;
+    }
+
+    .wantSee img {
+        width: 58px;
+        height: 58px;
+    }
+
+    .FomrZohoImplmnrt {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .IframeAreassectn {
+        padding-bottom: 10px;
+    }
+}

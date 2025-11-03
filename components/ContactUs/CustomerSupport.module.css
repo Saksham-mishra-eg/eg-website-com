@@ -1,0 +1,236 @@
+.CustomerSupportBg {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    padding: 40px 0;
+    height: auto;
+    background-color: #ffffff;
+}
+
+.CusomerSuproHead {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.Cntctdmscn{
+    width: 100%;
+    display: block;
+}
+
+.CusomerSuproHead h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+}
+
+.supporIncsImg {
+    margin-right: 20px;
+    text-align: left;
+    width: 29px;
+}
+
+.navItemClsmdn {
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.navItemClsmdn a {
+    font-size: 16px;
+    color: #000;
+}
+
+.navItemClsmdn a:active {
+    color: #2067D3 !important;
+    border: 1px solid #2067D3 !important;
+    border-radius: 5px !important;
+    background: #E4EEFE !important;
+}
+
+a.nav-link.active {
+    color: #2067D3 !important;
+    border: 1px solid #2067D3 !important;
+    border-radius: 5px !important;
+    background: #E4EEFE !important;
+}
+
+.navItemClsmdn a.nav-link.active {
+    color: #2067D3 !important;
+    border: 1px solid #2067D3 !important;
+    border-radius: 5px !important;
+    background: #E4EEFE !important;
+}
+
+.nav-link.active {
+    color: #2067D3 !important;
+    border: 1px solid #2067D3 !important;
+    border-radius: 5px !important;
+    background: #E4EEFE !important;
+}
+
+.navHeadnLetside {
+    border: 1px solid #9D9D9D;
+    border-radius: 6px;
+    padding: 30px 20px 20px;
+}
+
+.tabXConterares {
+    border: 1px solid #D0D0D0;
+    border-radius: 6px;
+    padding: 40px 35px 35px;
+}
+
+.tabPaneCenter {
+    font-family: "Roboto", sans-serif;
+}
+
+.tabPaneCenter h3 {
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.tabpNecenflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.EmailImgeicn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: auto;
+}
+
+.EmailImgeicn h5 {
+    width: 100%;
+    display: block;
+    color: #000;
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.EmailImgeicn a {
+    text-decoration: none;
+}
+
+.EmailImgeicn img {
+    height: 69px;
+}
+
+.EmailImgTiketn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.EmailImgTiketnFaq {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+    height: auto;
+}
+
+.EmailImgTiketn h3 {
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.EmailImgTiketn img {
+    margin-bottom: 25px;
+}
+
+:root {
+    --white: #fff;
+    --color: #3884C7;
+    --main-color: #136ab6;
+}
+
+.creTiclneNew {
+    color: var(--white);
+    background: var(--color);
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px 15px;
+    border-radius: 50px;
+    border: none;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    transition: all 0.35s;
+    text-decoration: none;
+}
+
+.creTiclneNew:hover,
+.creTiclneNew:focus {
+    color: var(--white);
+}
+
+.creTiclneNew:before,
+.creTiclneNew:after {
+    content: "";
+    background-color: var(--main-color);
+    width: 140%;
+    height: 28px;
+    transform: rotate(10deg);
+    position: absolute;
+    top: -80px;
+    left: 20px;
+    transition: 0.3s ease-in-out;
+    z-index: -1;
+}
+
+.creTiclneNew:after {
+    top: auto;
+    bottom: -80px;
+    left: -20px;
+}
+
+.creTiclneNew:hover:before,
+.creTiclneNew:hover:after {
+    top: -10px;
+    left: -20px;
+}
+
+.creTiclneNew:hover:after {
+    top: auto;
+    bottom: -10px;
+}
+
+.scheDemoTnt {
+    text-decoration: none;
+    color: #1f7ec3;
+    font-size: 18px;
+    font-weight: 510;
+    font-family: Roboto, sans-serif;
+    letter-spacing: .55px;
+}
+
+@media only screen and (max-width: 767px) {
+    .creTiclneNew {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tabXConterares {
+        margin-top: 40px;
+        padding: 27px 10px 25px;
+    }
+
+    .EmailImgeicn {
+        width: 50%;
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,127 @@
+.FounderDirecterBg {
+    background-image: url(/public/bgtrans.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 80px;
+    margin: 60px 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.FondDire {
+    font-family: "Roboto", sans-serif;
+    width: 88%;
+}
+
+.fornParaghr p {
+    font-size: 16px;
+    color: #848484;
+    line-height: 30px;
+}
+
+.fornParaghr a {
+    font-size: 16px;
+    color: #3884C7;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.heaindRiectr {
+    font-family: "Roboto", sans-serif;
+}
+
+.heaindRiectr h2 {
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.heaindRiectr hr {
+    width: 35%;
+    height: 1px;
+    background: #444444;
+    opacity: 1;
+}
+
+.fornParaghr {
+    padding: 20px;
+    background-color: #fff;
+    margin: 25px;
+}
+
+.Fondimer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-family: "Roboto", sans-serif;
+}
+
+.directImge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.directImge h3 {
+    font-size: 24px;
+    color: #2A2A2A;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.directImge h6 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.directImge img {
+    margin-bottom: 20px;
+    border-radius: 100%;
+    height: 246px;
+    width: 246px;
+}
+
+@media screen and (max-width: 768px) {
+    .FounderDirecterBg {
+        padding: 0;
+    }
+
+    .Fondimer {
+        gap: 0.5rem;
+    }
+
+    .FondDire {
+        width: 100%;
+    }
+
+    .fornParaghr {
+        margin: 0px;
+        padding: 0;
+    }
+
+    .fornParaghr p {
+        margin-bottom: 20px;
+    }
+
+    .directImge img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .directImge {
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .directImge h3 {
+        font-size: 20px;
+        margin-bottom: 0;
+        line-height: 26px;
+    }
+    .directImge h6{
+        font-size: 17px;
+    }
+
+}

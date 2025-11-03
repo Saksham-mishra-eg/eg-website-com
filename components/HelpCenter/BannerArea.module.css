@@ -1,0 +1,38 @@
+.BannerAreaBg {
+    padding: 100px 0;
+    height: auto;
+    background-color: #dddddd3d;
+}
+
+.abouEgGns {
+    padding: 25px;
+}
+
+.abouEgGns h3 {
+    color: #3884C7;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 15px;
+}
+
+.abouEgGns h1 {
+    font-size: 65px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 30px;
+    line-height: 130%;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .abouEgs img {
+        width: 100%;
+    }
+
+    .abouEgGns {
+        margin-top: 30px;
+        padding: 12px;
+    }
+}

@@ -24,3 +24,27 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
+.slick-prev:before,
+.slick-next:before {
+  color: #000 !important;
+}
+
+.slick-prev,
+.slick-next {
+  top: 105% !important;
+}
+
+.slick-next {
+  right: 80% !important;
+}
+
+.slick-prev {
+  left: 15% !important;
+}
+
+img, svg{
+  display: inline;
+}

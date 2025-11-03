@@ -1,0 +1,223 @@
+.PlatformHeaderine {
+    background-color: #F4F4F4;
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.tradeText {
+    text-align: left;
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+.howYOur {
+    color: #171A31;
+    font-size: 55px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 15px;
+}
+
+.actnIsht {
+    color: #0d6efd;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.ditextorkder p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #848484;
+    margin-bottom: 35px;
+}
+
+.captDemobd {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    align-items: center;
+    gap: 2rem;
+}
+
+.captImg {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.TrlBtn {
+    background-color: #154bbf;
+    color: #fff;
+    border-radius: 40px;
+    padding: 11px 25px !important;
+    text-decoration: none;
+    vertical-align: -webkit-baseline-middle;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+}
+
+.TrlBtn:hover {
+    background-color: #002a85;
+    color: #fff;
+}
+
+.getainsider {
+    color: #154bbf;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.FomrDentnormCrer {
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 6px;
+    font-family: "Roboto", sans-serif;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+}
+
+
+.formLaelCar {
+    font-size: 16px;
+    color: #171a31bb;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.formContrCaresd {
+    border-radius: 2px;
+    color: #A19D9D;
+    outline: none;
+    box-shadow: none;
+    border-color: #A19D9D;
+}
+
+.formContrCaresd:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #A19D9D;
+}
+
+.formLaelCarresm {
+    font-size: 16px;
+    color: #292929;
+    font-family: "Roboto", sans-serif;
+}
+
+.modalHeader {
+    background-image: linear-gradient(to right, #1d60dc, #2c6ee8);
+    color: #fff;
+    padding: 14px 20px;
+}
+
+.subtmBtinFrom {
+    color: #fff;
+    background-color: #333;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding: 8px 22px 9px;
+    border: none;
+    border-radius: 0;
+    position: relative;
+    z-index: 1;
+    transition: all 0.4s ease 0s;
+}
+
+.subtmBtinFrom:focus {
+    color: #fff;
+}
+
+.subtmBtinFrom:hover {
+    color: #fff;
+    background: #333;
+    box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.5);
+}
+
+.subtmBtinFrom:before,
+.subtmBtinFrom:after {
+    content: '';
+    background-color: #154bbf;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: scaleX(0);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: all 0.3s ease-in 0s;
+}
+
+.subtmBtinFrom:after {
+    background-color: #154bbf;
+    border-radius: 0;
+    transform: scaleX(1);
+}
+
+.subtmBtinFrom:hover:before {
+    border-radius: 0;
+    opacity: 1;
+    transform: scaleX(1);
+}
+
+.subtmBtinFrom:hover:after {
+    border-radius: 50%;
+    opacity: 1;
+    transform: scaleX(0);
+}
+
+@media only screen and (max-width: 767px) {
+    .subtmBtinFrom {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .PlatformHeaderine {
+        padding: 60px 0;
+    }
+
+    .pltrtradeText {
+        margin: 0;
+    }
+
+    .pltrtradeText h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    .captDemobd {
+        gap: 0.5rem;
+        justify-content: space-between;
+    }
+
+    .TrlBtn {
+        font-size: 13px;
+        padding: 9px 10px !important;
+    }
+
+    .getainsider {
+        font-size: 15px;
+    }
+
+    .captImg {
+        justify-content: space-around;
+    }
+
+    .captImg img {
+        width: 26%;
+    }
+}

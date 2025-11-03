@@ -1,0 +1,79 @@
+.VisionMissionBg {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 10px 0 80px;
+}
+
+.vsnmsn {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0 40px;
+}
+
+.vsnmsn h2 {
+    font-size: 40px;
+    color: #000;
+    font-weight: 600;
+}
+
+.visonndmisson {
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.visonbx {
+    width: 100%;
+    padding: 30px;
+    border-radius: 14px;
+    height: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 13px 16px -8px;
+}
+
+.visonbx h3 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.visonbx p {
+    font-size: 16px;
+    color: #848484;
+    line-height: 28px;
+}
+
+.visonbx img {
+    margin-bottom: 30px;
+    height: 50px;
+    width: 50px;
+    display: inline;
+}
+
+@media screen and (max-width: 768px) {
+    .VisionMissionBg {
+        padding-top: 40px;
+    }
+
+    .visonndmisson {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+
+    .visonbx {
+        padding: 25px 18px;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+
+}

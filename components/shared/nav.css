@@ -1,0 +1,12 @@
+.nav-link {
+    color: #000;
+}
+
+.dropdown-menu {
+    padding: 0;
+}
+
+.dropdown-menu.show {
+    padding-top: 0;
+    padding-bottom: 0;
+}

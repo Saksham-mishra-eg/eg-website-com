@@ -1,0 +1,82 @@
+.FaqsBg {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.faqheading {
+    width: 100%;
+}
+
+.ulliSFaiPric {
+    list-style-type: disc;
+    margin-top: 1rem;
+}
+
+.ulliSFaiPric li {
+    margin-bottom: 10px;
+}
+
+.faqheading h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.Acroheader .acnrAtivebtn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    text-align: left;
+    background-color: transparent;
+    font-size: 18px;
+    color: #2D2D2D;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    box-shadow: none;
+    outline: 0;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+}
+
+.Acroheader button {
+    font-size: 18px;
+    color: #2D2D2D;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    box-shadow: none;
+    outline: 0;
+    padding: 0;
+}
+
+.accordion-flush>.accordion-item>.accordion-collapse {
+    margin-bottom: 25px;
+}
+
+.acrBodyares {
+    margin-bottom: 25px;
+}
+
+.acronItems {
+    border-bottom: 0;
+}
+
+.acOrdingTbs {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .acOrdingTbs {
+        padding: 0;
+    }
+}

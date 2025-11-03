@@ -1,0 +1,36 @@
+.StatsDemoSection {
+    width: 100%;
+    height: 100%;
+    background-color: #f4f7ff;
+    padding: 60px 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.TextEnrichtrd {
+    width: 30%;
+}
+
+.Iframdemobcs {
+    width: 68%;
+}
+
+.briadbisemo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    .briadbisemo {
+        flex-direction: column;
+    }
+
+    .TextEnrichtrd {
+        width: 100%;
+    }
+
+    .Iframdemobcs {
+        width: 100%;
+    }
+}

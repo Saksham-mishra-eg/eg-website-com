@@ -1,0 +1,65 @@
+.PossitionsOBg {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.Posygheading {
+    font-family: "Roboto", sans-serif;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.Posygheading h3 {
+    font-size: 40px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.Posygheading p {
+    color: #171a31bf;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Posygheading h4 {
+    color: #3884C7;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.engTabledta {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid #E0E0E0;
+    padding: 22px;
+}
+
+.trClaOFengdata td p {
+    font-size: 20px;
+    color: #848484;
+    margin-bottom: 10px;
+}
+
+.trClaOFengdata td p span {
+    font-size: 16px;
+    color: #848484;
+}
+
+.tableDivttd {
+    width: 70%;
+    float: left;
+}
+
+.trClaOFengdata td img {
+    visibility: hidden;
+}
+
+.trClaOFengdata td:hover img {
+    visibility: visible;
+    cursor: pointer;
+    padding-top: 20px;
+}

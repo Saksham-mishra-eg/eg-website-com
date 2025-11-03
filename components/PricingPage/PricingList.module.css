@@ -1,0 +1,281 @@
+.PricingListPg {
+    width: 100%;
+    padding: 60px;
+    height: auto;
+    background-color: #fff;
+}
+
+.PrinTblComnun {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto 3em;
+    padding: 0;
+}
+
+.PrcngEvry {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+.PrcngEvry h1 {
+    color: #3884C7;
+    font-size: calc(2.61rem + .9vw);
+    font-weight: 600;
+}
+
+.UsdInrBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.intToUd {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.intToUd span {
+    color: #292929;
+    font-size: 16px;
+}
+
+.prcngOff {
+    color: #303030;
+    font-size: 11px;
+}
+
+.radioBtnCr .form-check-input {
+    height: 2.2em !important;
+    width: 5em !important;
+}
+
+.form-switch .form-check-input {
+    height: 2.2em !important;
+    width: 5em !important;
+}
+
+/* pricing */
+
+
+.OPlan {
+    flex: 0 1 260px;
+    min-width: 250px;
+    height: auto;
+    margin: 20px 10px;
+    box-shadow: 3px 3px 3px 3px #dddddd;
+    max-width: 250px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    transition: all 0.1s ease;
+    float: left;
+}
+
+
+.OPlanPrice {
+    text-align: center;
+    padding: 40px 0 20px;
+}
+
+.OChoices {
+    padding: 20px 10px;
+}
+
+.OCurrency {
+    font-size: 26px;
+    line-height: 60px;
+    color: #3884C7;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+
+.OPrice {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    color: #2A2A2A;
+    font-weight: 500;
+}
+
+.PeYers {
+    color: #606060;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    display: inline;
+}
+
+.OChoiceGroup {
+    display: flex;
+    overflow: hidden;
+    padding: 8px 0;
+    align-items: center;
+}
+
+.OChoiceGroup img {
+    margin-right: 5px;
+    float: left;
+}
+
+.OChoiceGroup p {
+    text-align: left;
+}
+
+.OChoices p {
+    font-size: 13px;
+    float: left;
+    width: calc(100% - 35px);
+    color: #6E6E6E;
+    font-family: "Roboto", sans-serif;
+}
+
+.OChoices p b {
+    color: #2C2C2C;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+
+.OChoices h5 {
+    color: #212121;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    float: left;
+    width: calc(100% - 35px);
+    border-bottom: 2px dotted #000;
+    padding-bottom: 5px;
+}
+
+.OChoiceGroup h6 {
+    color: #6E6E6E;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    float: left;
+    width: calc(100% - 35px);
+    padding-bottom: 5px;
+}
+
+.AplyOBtn {
+    background-color: #2B96F4;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    border-radius: 6px;
+    padding: 13px 25px;
+    width: 100%;
+    border-color: #2B96F4;
+    box-shadow: none;
+    outline: 0;
+}
+
+.Aplytnttl {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.tryIt {
+    color: #3884C7;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Hrtag {
+    background-color: #3884C7;
+    height: 2px;
+    width: 100%;
+    color: #3884C7;
+    opacity: 1;
+    margin-top: 0;
+}
+
+.viewLLs {
+    color: #3984C7;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.OHighlightText {
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.OHighlight {
+    width: 160px;
+    height: 35px;
+    position: absolute;
+    background-color: #2B96F4;
+    top: 27px;
+    left: -37px;
+    transform: rotate(-45deg);
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.modalHeader {
+    background-image: linear-gradient(to right, #1d60dc, #2c6ee8);
+    color: #fff;
+    padding: 14px 20px;
+}
+
+.modalBodytxt>ul>li {
+    list-style: circle;
+    width: 33%;
+    float: left;
+    color: #545454;
+    font-family: roboto, sans-serif;
+    font-size: 13px;
+    padding: 6px 0;
+    letter-spacing: .25px;
+}
+
+@media screen and (max-width: 768px) {
+    .PricingListPg {
+        padding: 60px 0;
+    }
+
+    .UsdInrBtn {
+        gap: 1rem;
+        justify-content: space-around;
+    }
+
+    .intToUd {
+        gap: 0.2rem;
+    }
+
+    .OPlan {
+        min-width: 100%;
+    }
+
+    .PrinTblComnun {
+        flex-wrap: wrap;
+    }
+}

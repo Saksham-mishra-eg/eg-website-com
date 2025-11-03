@@ -1,0 +1,62 @@
+.TrustedClientBg {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    padding: 40px 0;
+    height: auto;
+    background-color: #ffffff;
+}
+
+.CusomerSuproHead {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.CusomerSuproHead h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+}
+
+.clientIcnimgTru {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.imgClinEn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: left;
+    padding: 20px;
+    width: 20%;
+    justify-content: center;
+}
+
+.imgClinEn img {
+    height: 142px;
+}
+
+@media screen and (max-width: 768px) {
+    .imgClinEn {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .clientIcnimgTru {
+        justify-content: space-evenly;
+    }
+
+    .imgClinEn {
+        width: auto;
+    }
+
+    .imgClinEn img {
+        height: 110px;
+    }
+}

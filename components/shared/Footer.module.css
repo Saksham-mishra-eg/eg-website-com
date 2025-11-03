@@ -1,0 +1,93 @@
+.FooterOnline {
+    width: 100%;
+    padding: 70px 0;
+    height: auto;
+    font-family: "Roboto", sans-serif;
+}
+
+.SocilIncs {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.SociLisstss {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    padding-bottom: 10px;
+}
+
+.SociLisstss li a img {
+    width: 40px;
+    height: 40px;
+}
+
+.GeFooterLg {
+    text-align: left;
+    width: 90%;
+}
+
+.GeFooterLg img {
+    width: 100%;
+}
+
+.HedComFtr {
+    text-align: left;
+    font-size: 20px;
+    color: #171A31;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    padding-left: 2rem;
+    text-transform: uppercase;
+}
+
+.GeFooterLg p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #6F6F6F;
+    text-transform: uppercase;
+}
+
+.ForListTags {
+    list-style: none;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.ForListTags li {
+    line-height: 40px;
+}
+
+.ForListTags li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #737373;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.ForListTags li a:hover {
+    color: #000;
+}
+
+@media screen and (max-width: 768px) {
+    .FooterOnline {
+        padding: 30px 0;
+    }
+
+    .GeFooterLg {
+        margin-bottom: 25px;
+    }
+
+    .HedComFtr,
+    .ForListTags {
+        padding-left: 0;
+    }
+
+    .FooterCompny {
+        margin-bottom: 25px;
+    }
+}
