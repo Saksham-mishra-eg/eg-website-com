@@ -1,6 +1,6 @@
 "use client";
-import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
 import styles from "../HomePage/GetGlobalTrade.module.css"
 import { Container, Col, Row, Button } from "react-bootstrap";
 import dynamic from "next/dynamic";

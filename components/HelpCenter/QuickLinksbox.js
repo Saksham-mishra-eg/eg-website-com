@@ -36,7 +36,7 @@ function QuickLinksbox() {
                             </div>
                             <div className={styles.LinksofBoxex}>
                                 <a href="contact-us">
-                                    <Image src="/contacticon.png" alt="C Icon" width={44} height={44} />
+                                    <Image src="/contacticon.png" alt="Contact Icon" width={44} height={44} />
                                     <p>Contact Us</p>
                                 </a>
                             </div>

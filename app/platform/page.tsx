@@ -12,7 +12,6 @@ export const metadata: Metadata = {
     "Export Genius provides essential data that powers your business with actual shipment records, company overviews, and contact information on global companies.",
 };
 
-
 export default function Platform() {
     return (
         <div className="MainPage">
