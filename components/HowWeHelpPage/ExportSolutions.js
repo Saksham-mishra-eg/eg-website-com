@@ -1,6 +1,6 @@
 "use client";
-import React, { useState } from "react"
 import "bootstrap/dist/css/bootstrap.min.css";
+import React, { useState } from "react"
 import styles from "./ExportSolutions.module.css";
 import { Container, Button, Col, Form, Row } from "react-bootstrap";
 import BoxReveal from "./box-reveal";

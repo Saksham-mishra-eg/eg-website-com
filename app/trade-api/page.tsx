@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react"
 import ApiHeaderSection from "../../components/TradeApiPage/ApiHeaderSection";
 import LeverageApi from "../../components/TradeApiPage/LeverageApi";
 import AccessDataWrapper from "../../components/TradeApiPage/AccessDataWrapper";
