@@ -18,25 +18,25 @@ function QuickLinksbox() {
                         <div className={styles.quicllinYTabs}>
                             <div className={styles.LinksofBoxex}>
                                 <a href="/faq">
-                                    <Image src="/faqicon.png" alt="Faq Icon" width={44} height={44} />
+                                    <Image src="/icons/faq-icon.png" alt="Faq Icon" width={44} height={44} />
                                     <p>FAQ</p>
                                 </a>
                             </div>
                             <div className={styles.LinksofBoxex}>
                                 <a href="/data">
-                                    <Image src="/dataicon.png" alt="Data Icon" width={44} height={44} />
+                                    <Image src="/icons/data-icon.png" alt="Data Icon" width={44} height={44} />
                                     <p>Data Availability</p>
                                 </a>
                             </div>
                             <div className={styles.LinksofBoxex}>
                                 <a href="/pricing">
-                                    <Image src="/planicon.png" alt="Plan Icon" width={44} height={44} />
+                                    <Image src="/icons/plan-icon.png" alt="Plan Icon" width={44} height={44} />
                                     <p>Plan & Pricing</p>
                                 </a>
                             </div>
                             <div className={styles.LinksofBoxex}>
                                 <a href="contact-us">
-                                    <Image src="/contacticon.png" alt="Contact Icon" width={44} height={44} />
+                                    <Image src="/icons/contact-icon.png" alt="Contact Icon" width={44} height={44} />
                                     <p>Contact Us</p>
                                 </a>
                             </div>
