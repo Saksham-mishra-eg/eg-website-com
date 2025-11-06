@@ -1,5 +1,4 @@
 "use client";
-
 import styles from "./GetsampleofData.module.css";
 import { Col, Row, Container, Button, Modal } from "react-bootstrap";
 import { useState } from "react";

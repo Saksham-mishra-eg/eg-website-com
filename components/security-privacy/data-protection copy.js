@@ -1,9 +1,8 @@
 "use client";
 import React from "react";
-import { Container, Col, Row } from "react-bootstrap";
+import { Container, Col, Row, Accordion } from "react-bootstrap";
 import styles from "./data-protections.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Accordion from 'react-bootstrap/Accordion';
 import Image from "next/image";
 
 const DataProtections = () => {

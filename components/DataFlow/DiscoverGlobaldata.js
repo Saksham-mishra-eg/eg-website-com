@@ -1,8 +1,7 @@
 "use client";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./DiscoverGlobaldata.module.css";
-import Container from 'react-bootstrap/Container';
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, Container } from "react-bootstrap";
 
 function DiscoverGlobaldata() {
 
