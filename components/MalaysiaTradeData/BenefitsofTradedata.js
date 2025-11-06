@@ -1,5 +1,4 @@
 "use client";
-
 import styles from "./BenefitsofTradedata.module.css";
 import { Col, Row, Container } from "react-bootstrap";
 import Image from "next/image";

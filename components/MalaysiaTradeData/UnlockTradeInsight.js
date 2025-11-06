@@ -1,5 +1,4 @@
 "use client";
-
 import styles from "./UnlockTradeInsight.module.css";
 import { Col, Row, Button, Container, Modal } from "react-bootstrap";
 import { useState } from "react";
@@ -10,7 +9,7 @@ import Image from "next/image";
 import { useSlug } from "./SlugProvider";
 
 function UnlockTradeInsight() {
-    const slug = useSlug(); // ✅ get slug from context
+    const slug = useSlug(); //
 
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);

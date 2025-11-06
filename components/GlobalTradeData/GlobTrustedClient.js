@@ -1,7 +1,7 @@
 "use client";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./GlobTrustedClient.module.css";
-import { Col, Row, Container } from "react-bootstrap";
+import { Row, Container } from "react-bootstrap";
 import Image from "next/image";
 
 const clientLogos = [

@@ -1,7 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./SearchList.module.css";
-import Container from 'react-bootstrap/Container';
-import { Col, Form, Row } from "react-bootstrap";
+import { Col, Form, Row, Container } from "react-bootstrap";
 
 function SearchList() {
 

@@ -1,8 +1,7 @@
 "use client";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./DetailedPricing.module.css";
-import { Col, Container, Row, Modal } from "react-bootstrap";
-import Table from 'react-bootstrap/Table';
+import { Col, Container, Row, Modal, Table } from "react-bootstrap";
 import React, { useContext } from 'react';
 import { PricingContext } from './PricingContext';
 import { useState } from 'react';

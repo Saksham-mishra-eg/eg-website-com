@@ -1,8 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "../HomePage/GetGlobalTrade.module.css"
-import Container from 'react-bootstrap/Container';
-import { Col, Row } from "react-bootstrap";
-import Button from 'react-bootstrap/Button';
+import { Col, Row, Button, Container } from "react-bootstrap";
 import { Player } from '@lottiefiles/react-lottie-player';
 
 function GetGlobalTrade() {

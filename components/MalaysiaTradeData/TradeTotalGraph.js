@@ -1,9 +1,7 @@
 "use client";
-
 import styles from "./TradeTotalGraph.module.css";
 import { Col, Row, Container } from "react-bootstrap";
 import { usePathname } from "next/navigation";
-
 import MalaysiaChartGraph from "./charts/MalaysiaChartGraph";
 import MalaysiaExportData from "./charts/MalaysiaExportData";
 import MalaysiaImportData from "./charts/MalaysiaImportData";
@@ -16,7 +14,6 @@ function TradeTotalGraph() {
   const pathname = usePathname();
   const slug = pathname?.replace("/", "") || "malaysia-trade-data";
 
-  // ✅ Map country slugs to their graph components
   const graphMap = {
     "malaysia-trade-data": {
       Chart: MalaysiaChartGraph,

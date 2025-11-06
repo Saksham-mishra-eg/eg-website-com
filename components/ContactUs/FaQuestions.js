@@ -1,12 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./FaQuestions.module.css";
-import Container from 'react-bootstrap/Container';
-import { Card, Col, Row } from "react-bootstrap";
+import { Card, Col, Row, Container, Button, Collapse } from "react-bootstrap";
 import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Collapse from 'react-bootstrap/Collapse';
 import { BsChevronUp, BsChevronDown } from 'react-icons/bs';
-
 
 function FaQuestions() {
 
@@ -22,21 +18,6 @@ function FaQuestions() {
     const [open10, setOpen10] = useState(false);
     const [open11, setOpen11] = useState(false);
     const [open12, setOpen12] = useState(false);
-
-    // const toggleAll = () => {
-    //     setOpen1(!open1);
-    //     setOpen2(!open2);
-    //     setOpen3(!open3);
-    //     setOpen4(!open4);
-    //     setOpen5(!open5);
-    //     setOpen6(!open6);
-    //     setOpen7(!open7);
-    //     setOpen8(!open8);
-    //     setOpen9(!open9);
-    //     setOpen10(!open10);
-    //     setOpen11(!open11);
-    //     setOpen12(!open12);
-    // };
 
     return (
         <div className={styles.FaQuestionsBg}>

@@ -1,5 +1,4 @@
 "use client"
-
 import styles from "./LeverageApi.module.css";
 import { Col, Container, Button, Tab, Tabs, Nav, Row, Modal, } from "react-bootstrap";
 import "./navTabs.css";
